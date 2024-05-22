@@ -43,4 +43,21 @@ body {
     text-align: left;
     border-radius: 4px;
     cursor: pointer;
+    transition: all 0.4s;
+}
+.btn:hover {
+    background: #343030;
+    color: rgb(253, 244, 244);
+}
+/*style the button (Next)*/
+#next-btn {
+    background: #001e4d;
+    color: #ffffff;
+    font-weight: 500;
+    width: 6.25em;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
 }
