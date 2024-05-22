@@ -1,11 +1,14 @@
+
+
+
 const question = [
     {
         question: "What year was the United Nations established?",
         answer: [
-            { text: 1946, correct: false},
-            { text: 1951, correct: false},
-            { text: 1945, correct: true},
-            { text: 1948, correct: false},
+            { text: "1946", correct: false},
+            { text: "1951", correct: false},
+            { text: "1945", correct: true},
+            { text: "1948", correct: false},
         ]
     },
     {
@@ -36,15 +39,15 @@ const question = [
         ]
     },
 ];
-// Create 
+
 const questionElement = document.getElementById("question");
-const answerButton = document.getElementById("answer-buttons");
+const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 
 let currentQuestionIndex = 0;
 let score = 0;
 
-//create function for restart index and score to 0.
+//create function for restart index and score to 0
 function startQuiz(){
     currentQuestionIndex = 0;
     score = 0;
@@ -55,18 +58,45 @@ function startQuiz(){
 
 //create function for show question 
 function showQuestion() {
+    resetState();
     let currentQuestion = questions[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
-    questionElement.innerHTML = questionNo + "." + currentQuestion.
+    questionElement.innerHTML = questionNo + ". " + currentQuestion.
+    question;
 
  //add code to display the answers
  currentQuestion.answers.forEach(answer => {
     const button = document.createElement("button");
     button.innerHTML = answer.text;
     button.classList.add("btn");
-    answerButton.appendChild(button);
+    answerButtons.appendChild(button);
+    if (answer.correct){
+        button.dataset.correct = answer.correct;
+    }
+    button.addEventListener("click", selectAnswer);
     });
 }
+// Code for remove all previous answer
+function resetState(){
+    nextButton.style.display = "none";
+    while(answerButtons.firstChild){
+        answerButtons.removeChild(answerButtons.firstChild);
+    }
+
+}
+
+//Create the Function to select the answer
+
+function selectAnswer(e){
+    const selectedBtn = e.target;
+    const isCorrect = selectedBtn.dataset.correct === "true";
+    if (isCorrect){
+        selectedBtn.classList.add("correct");
+    } else {
+        selectedBtn.classList.add("incorrect");
+    }
+}
+
 startQuiz();
 
 
