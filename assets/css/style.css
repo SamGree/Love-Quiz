@@ -4,12 +4,17 @@
     font-family: sans-serif;
     box-sizing: border-box;
 }
-body {
-    background: rgb(113, 78, 78);
+
+
+
+
+body { 
+    background-image: url(../images/istockphoto.jpg); background-size: cover; background-position: 42rem;
 }
+
 .app {
     /*style background of queation area*/
-    background: white;
+    background: #adb9b27a;
     width: 90%;
     max-width: 600px;
     margin: 100px auto 0;
@@ -17,7 +22,7 @@ body {
     padding: 30px;
 }
 .app h1 {
-    font-size: 25px;
+    font-size: 30px;
     color: #001e4d;
     font-weight: 600;
     border-bottom: 1px solid #222020;
@@ -27,7 +32,7 @@ body {
     padding: 20px 0;
 }
 .quiz h2 {
-    font-size: 18px;
+    font-size: 11px;
     color: #001e4d;
     font-weight: 600;
 }
@@ -64,6 +69,7 @@ body {
     border-radius: 4px;
     cursor: pointer;
     display: none;
+    text-align: center;
 }
 
 .correct {
@@ -73,3 +79,55 @@ body {
 .incorrect {
     background: #fa8f8f;
 }
+
+@media (min-width: 320px) {
+    body {background-position: 48rem;
+    }
+    .quiz h2 {
+        font-size: 14px;
+    }
+
+}
+
+@media (min-width: 576px){
+    body {
+        background-position: 62rem;
+    }
+    .quiz h2 {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    body {
+        background-position: 132rem;
+    }
+    .quiz h2 {
+        font-size: 18px;
+    }
+    .app h1 {
+        font-size: 40px; 
+        text-align: center;
+    }
+}
+
+ /*larger devices (laptops desktop, 992px and up)*/
+ @media screen and (min-width: 992px){
+    body {
+        background-position: 150rem;
+    }
+    .quiz h2 {
+        font-size: 18px;
+    }
+ }
+
+ @media screen and (min-width: 1200px){
+    body {
+        background-position: 134rem;
+    }
+    .quiz h2 {
+        font-size: 20px;
+    }
+
+ }

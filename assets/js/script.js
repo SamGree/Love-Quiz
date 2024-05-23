@@ -34,7 +34,7 @@ const questions = [
             { text: "Blue", correct: false },
             { text: "Orange", correct: false },
         ]
-    },
+    }
 ];
 
 const questionElement = document.getElementById("question");
@@ -90,6 +90,7 @@ function selectAnswer(e) {
     } else {
         selectedBtn.classList.add("incorrect");
     }
+    //code for search for answer and go to next question
     Array.from(answerButtons.children).forEach(button => {
         if (button.dataset.correct === "true") {
             button.classList.add("correct");
@@ -99,7 +100,7 @@ function selectAnswer(e) {
     nextButton.style.display = "block";
 }
 
-//Define the function for score
+//Define the function for score and play again
 function showScore() {
     resetState();
     questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
@@ -107,7 +108,7 @@ function showScore() {
     nextButton.style.display = "block";
 }
 
-//Create function for next button
+//Create function for next button and display score
 function handleNextButton() {
     currentQuestionIndex++;
     if (currentQuestionIndex < questions.length) {
