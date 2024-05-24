@@ -1,4 +1,5 @@
 const questions = [
+    
     {
         question: "What year was the United Nations established?",
         answers: [
@@ -18,12 +19,30 @@ const questions = [
         ]
     },
     {
+        question: "How many faces does a Dodecahedron have?",
+        answers: [
+            { text: "9", correct: false },
+            { text: "12", correct: true },
+            { text: "14", correct: false },
+            { text: "16", correct: false },
+        ]
+    },
+    {
         question: "How many elements are in the periodic table?",
         answers: [
             { text: "108", correct: false },
             { text: "118", correct: true },
             { text: "181", correct: false },
             { text: "98", correct: false },
+        ]
+    },
+    {
+        question: "What country drinks the most coffee per capita?",
+        answers: [
+            { text: "Sweden", correct: false },
+            { text: "United Kingdom", correct: false },
+            { text: "Finland", correct: true },
+            { text: "Lebanon", correct: false },
         ]
     },
     {

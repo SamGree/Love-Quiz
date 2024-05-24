@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+
     padding: 0;
     font-family: sans-serif;
     box-sizing: border-box;
@@ -23,9 +23,9 @@ body {
 }
 .app h1 {
     font-size: 30px;
-    color: #001e4d;
+    color: #feffff;
     font-weight: 600;
-    border-bottom: 1px solid #222020;
+    border-bottom: 1px solid #ffffff;
     padding-bottom: 30px;
 }
 .quiz  {
@@ -33,7 +33,7 @@ body {
 }
 .quiz h2 {
     font-size: 11px;
-    color: #001e4d;
+    color: #f9f9f9;
     font-weight: 600;
 }
 /*style the buttons*/
