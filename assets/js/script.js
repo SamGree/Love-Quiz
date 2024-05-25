@@ -1,4 +1,15 @@
+const form = document.getElementById('form');
+const usernameInput = document.getElementById('username');
+const usernameForm = document.getElementById('username-form');
+const quizContainer = document.getElementById('quiz-container');
 
+const questionElement = document.getElementById('question');
+const answerButtons = document.getElementById('answer-buttons');
+const nextButton = document.getElementById('next-btn');
+
+let currentQuestionIndex = 0;
+let score = 0;
+let username = '';
 
 const questions = [
     {
