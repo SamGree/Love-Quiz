@@ -1,5 +1,6 @@
+
+
 const questions = [
-    
     {
         question: "What year was the United Nations established?",
         answers: [
@@ -56,29 +57,28 @@ const questions = [
     }
 ];
 
-const questionElement = document.getElementById("question");
-const answerButtons = document.getElementById("answer-buttons");
-const nextButton = document.getElementById("next-btn");
+form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    username = usernameInput.value;
+    if (username) {
+        usernameForm.style.display = 'none';
+        quizContainer.style.display = 'block';
+        startQuiz();
+    }
+});
 
-let currentQuestionIndex = 0;
-let score = 0;
-
-//create function for restart index and score to 0
 function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Next";
     showQuestion();
 }
-//create function for show question 
+
 function showQuestion() {
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
-
-
-     //add code to display the answers
     currentQuestion.answers.forEach(answer => {
         const button = document.createElement("button");
         button.innerHTML = answer.text;
@@ -91,7 +91,6 @@ function showQuestion() {
     });
 }
 
-// Code for remove all previous answer
 function resetState() {
     nextButton.style.display = "none";
     while (answerButtons.firstChild) {
@@ -99,7 +98,6 @@ function resetState() {
     }
 }
 
-//Create the Function to select the answer
 function selectAnswer(e) {
     const selectedBtn = e.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
@@ -109,7 +107,6 @@ function selectAnswer(e) {
     } else {
         selectedBtn.classList.add("incorrect");
     }
-    //code for search for answer and go to next question
     Array.from(answerButtons.children).forEach(button => {
         if (button.dataset.correct === "true") {
             button.classList.add("correct");
@@ -119,15 +116,13 @@ function selectAnswer(e) {
     nextButton.style.display = "block";
 }
 
-//Define the function for score and play again
 function showScore() {
     resetState();
-    questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
+    questionElement.innerHTML = `You scored ${score} out of ${questions.length}, ${username}!`;
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
 }
 
-//Create function for next button and display score
 function handleNextButton() {
     currentQuestionIndex++;
     if (currentQuestionIndex < questions.length) {
@@ -138,11 +133,20 @@ function handleNextButton() {
 }
 
 nextButton.addEventListener("click", () => {
-    if (currentQuestionIndex < questions.length) {
+    if (nextButton.innerHTML === "Play Again") {
+        resetQuiz();
+    } else if (currentQuestionIndex < questions.length) {
         handleNextButton();
     } else {
         startQuiz();
     }
 });
+
+function resetQuiz() {
+    username = '';
+    usernameInput.value = '';
+    usernameForm.style.display = 'block';
+    quizContainer.style.display = 'none';
+}
 
 document.addEventListener("DOMContentLoaded", startQuiz);

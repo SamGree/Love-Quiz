@@ -9,8 +9,17 @@
 </head>
 
 <body>
+    <div id="username-form">
+        <h1>Welcome to Easy Quiz</h1>
+        <form id="form">
+            <label for="username">Enter your username:</label>
+            <input type="text" id="username" name="username" required>
+            <button type="submit" class="btn">Start Quiz</button>
+        </form>
+    </div>
+   
 
-    <div class="app">
+    <div id="quiz-container" class="app" style="display: none;">
         <h1>Brainy Quiz</h1>
         <div class="quiz">
             <h2 id="question">Question area</h2>
@@ -20,8 +29,9 @@
             <button class="btn">Answer 3</button>
             <button class="btn">Answer 4</button>
         </div>
-        <button id="next-btn" class="btn">Next</button>
+        
     </div>
+    <button id="next-btn" class="btn">Next</button>
     </div>
 
 
