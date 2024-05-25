@@ -16,6 +16,24 @@ body {
     height: 100vh;
     margin: 0;
 }
+h1 {
+    color: #f9f9f9;
+    text-align: center;
+}
+
+#btn {
+    width: 13.5rem; margin-left: 13.5rem; margin-top: 0.5rem;  padding: 5px 12.5px; border-radius: 4px;
+}
+#form {
+    color: #ffffff; 
+    font-size: 1.2em;
+}
+#username { padding: 10px 25px; border-radius: 4px;
+
+}
+
+
+
 
 .app {
     /*style background of queation area*/
