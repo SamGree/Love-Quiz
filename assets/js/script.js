@@ -1,16 +1,20 @@
+
+// Get the form and input elements for username submission
 const form = document.getElementById('form');
 const usernameInput = document.getElementById('username');
 const usernameForm = document.getElementById('username-form');
 const quizContainer = document.getElementById('quiz-container');
 
+// Get the elements for the quiz questions and answers
 const questionElement = document.getElementById('question');
 const answerButtons = document.getElementById('answer-buttons');
 const nextButton = document.getElementById('next-btn');
 
-let currentQuestionIndex = 0;
-let score = 0;
-let username = '';
+let currentQuestionIndex = 0; // Current question index
+let score = 0; // Player's score
+let username = ''; // Player's username
 
+// Array of questions with their answers and correct answer indication
 const questions = [
     {
         question: "What year was the United Nations established?",
@@ -68,96 +72,107 @@ const questions = [
     }
 ];
 
+// Event listener for form submission to start the quiz
 form.addEventListener('submit', function(e) {
-    e.preventDefault();
-    username = usernameInput.value;
-    if (username) {
-        usernameForm.style.display = 'none';
-        quizContainer.style.display = 'block';
-        startQuiz();
+    e.preventDefault(); // Prevent the default form submission
+    username = usernameInput.value; // Get the username
+    if (username) { // If username is provided
+        usernameForm.style.display = 'none'; // Hide the username form
+        quizContainer.style.display = 'block'; // Show the quiz container
+        startQuiz(); // Start the quiz
     }
 });
-
+// Function to start the quiz
 function startQuiz() {
-    currentQuestionIndex = 0;
-    score = 0;
-    nextButton.innerHTML = "Next";
-    showQuestion();
+    currentQuestionIndex = 0; // Reset the question index
+    score = 0; // Reset the score
+    nextButton.innerHTML = "Next"; // Set the button text
+    showQuestion(); // Show the first question
 }
-
+//create function to display a question
 function showQuestion() {
-    resetState();
-    let currentQuestion = questions[currentQuestionIndex];
-    let questionNo = currentQuestionIndex + 1;
-    questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+    resetState(); // Reset the quiz state
+    let currentQuestion = questions[currentQuestionIndex]; // Get the current question
+    let questionNo = currentQuestionIndex + 1; // Calculate the question number
+    questionElement.innerHTML = questionNo + ". " + currentQuestion.question; // Display the question
+    
+     // Create buttons for each answer
     currentQuestion.answers.forEach(answer => {
         const button = document.createElement("button");
         button.innerHTML = answer.text;
         button.classList.add("btn");
         answerButtons.appendChild(button);
         if (answer.correct) {
-            button.dataset.correct = answer.correct;
+            button.dataset.correct = answer.correct; // Mark correct answer
         }
-        button.addEventListener("click", selectAnswer);
+        button.addEventListener("click", selectAnswer); // Add event listener to the button
     });
 }
 
+// Function to reset the state of the quiz
 function resetState() {
-    nextButton.style.display = "none";
-    while (answerButtons.firstChild) {
+    nextButton.style.display = "none"; // Hide the next button
+    while (answerButtons.firstChild) { // Remove all previous answer buttons
         answerButtons.removeChild(answerButtons.firstChild);
     }
 }
 
+//Create the Function to select the answer
 function selectAnswer(e) {
-    const selectedBtn = e.target;
-    const isCorrect = selectedBtn.dataset.correct === "true";
+    const selectedBtn = e.target; // Get the selected button
+    const isCorrect = selectedBtn.dataset.correct === "true"; // Check if the answer is correct
     if (isCorrect) {
-        selectedBtn.classList.add("correct");
-        score++;
+        selectedBtn.classList.add("correct"); // Add correct class
+        score++; // Increment the score
     } else {
-        selectedBtn.classList.add("incorrect");
+        selectedBtn.classList.add("incorrect"); // Add incorrect class
     }
+
+    // Mark all correct answers
     Array.from(answerButtons.children).forEach(button => {
         if (button.dataset.correct === "true") {
             button.classList.add("correct");
         }
-        button.disabled = true;
+        button.disabled = true; // Disable all buttons
     });
-    nextButton.style.display = "block";
+    nextButton.style.display = "block"; // Show the next button
 }
 
+// Function to display the score
 function showScore() {
-    resetState();
-    questionElement.innerHTML = `You scored ${score} out of ${questions.length}, ${username}!`;
-    nextButton.innerHTML = "Play Again";
-    nextButton.style.display = "block";
+    resetState(); // Reset the state
+    questionElement.innerHTML = `You scored ${score} out of ${questions.length}, ${username}!`; // Show the score
+    nextButton.innerHTML = "Play Again"; // Change button text to "Play Again"
+    nextButton.style.display = "block"; // Show the button
 }
-
+// Function to handle the next button click
 function handleNextButton() {
-    currentQuestionIndex++;
-    if (currentQuestionIndex < questions.length) {
-        showQuestion();
+    currentQuestionIndex++; // Increment the question index
+    if (currentQuestionIndex < questions.length) { // If there are more questions
+        showQuestion(); // Show the next question
     } else {
-        showScore();
+        showScore(); // Show the score
     }
 }
 
+// Event listener for the next button
 nextButton.addEventListener("click", () => {
-    if (nextButton.innerHTML === "Play Again") {
-        resetQuiz();
-    } else if (currentQuestionIndex < questions.length) {
-        handleNextButton();
+    if (nextButton.innerHTML === "Play Again") { // If button text is "Play Again"
+        resetQuiz(); // Reset the quiz
+    } else if (currentQuestionIndex < questions.length) { // If there are more questions
+        handleNextButton(); // Handle next button click
     } else {
-        startQuiz();
+        startQuiz(); // Start the quiz
     }
 });
 
+// Function to reset the quiz
 function resetQuiz() {
-    username = '';
-    usernameInput.value = '';
-    usernameForm.style.display = 'block';
-    quizContainer.style.display = 'none';
+    username = ''; // Clear the username
+    usernameInput.value = ''; // Clear the input field
+    usernameForm.style.display = 'block'; // Show the username form
+    quizContainer.style.display = 'none'; // Hide the quiz container
 }
 
+// Event listener for DOM content loaded to start the quiz
 document.addEventListener("DOMContentLoaded", startQuiz);
