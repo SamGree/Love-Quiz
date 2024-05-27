@@ -1,3 +1,4 @@
+/* jshint esversion: 6 */
 
 // Get the form and input elements for username submission
 const form = document.getElementById('form');

@@ -1,39 +1,67 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome,
+-  ![Tux, the Linux mascot](/assets/images/quiz-screenshot.png)
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## link to the website
+ - <https://samgree.github.io/Love-Quiz/>
 
-## Codeanywhere Reminders
+# Table of Contents
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Site Overview
+ ### Goal
+ - Creating a quiz game involves setting clear goals to ensure the game is engaging, educational, and enjoyable for players. 
+   Here are some key goals to consider when creating a quiz game:
+   1. Engagement: Ensure the game is fun and engaging to keep players interested.
+   2. Educational Value: Provide informative and educational content to enhance players' knowledge.
+   3. Challenge: Balance the difficulty to provide a rewarding challenge without being too frustrating.
+   4. Feedback: Provide immediate feedback on answers to help players learn and improve.
 
-`python3 -m http.server`
+   ## Technologies used
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+   - HTML5 for the contents and structure of the website.
+   - CSS for the styling.
+   - Wireframing.
+   - GitPod as a local IDE & repository.
+   - GitHub Pages to deploy the website.
+   - Chrome Developer Tools for testing screen sizes and using Lighthouse.
+   - Wave Chrome extension to check web accessibility.
+   - Am I Responsive for testing and to make responsive image.
+   - JS functions and examples.
+   - Visual Studio Code as a local IDE & repository.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### User Stories
+- As a user:
+   - I want to easily understand the purpose of the site.
+   - I want to understand how to play the game.
+   - i want easily to start the game by just entering my name or any other player.
+   - I want to play the game again if I get high score or less score.
 
-`http_server`
+   ## Features
+   #### Existing Features
+   #### Rules
+    - In this game, the first step is to enter your name. Once you've done that, you'll proceed to the next page where you can start answering questions and then receive your score.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    ## Design
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    ## page test
+ - HTML 
+     - ![Tux, the Linux mascot](/assets/images/html.validator-screenshot%20.png)
+- CSS 
+   
+    - 
+        ![Tux, the Linux mascot](/assets/images/css.validator.screenshot.png)
 
-To log into the Heroku toolbelt CLI:
+- Lighthouse test
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+  - ![Tux, the Linux mascot](/assets/images/quiz.lighthouse.screenshot.png)
+    
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+    
 
----
 
-Happy coding!
+
+
+
+
+
