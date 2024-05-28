@@ -16,11 +16,11 @@
     ![Tux, the Linux mascot](/assets/images/header.png)
     - A header that clearly tells the user what game they are playing, combined with the background image CSS
 - Start the game
-   - here is the part where can player type them name to enter the game
-    ![Tux, the Linux mascot](/assets/images/startquiz.png)
+   - here is the part where can player type them name to enter the game.![Tux, the Linux mascot](/assets/images/startquiz.png)
 - secound page
    - After player logged in then questions will appear.
     ![Tux, the Linux mascot](/assets/images/nextpage.png)
+   
    - After the player makes a choice, the answer will be highlighted with a green background if correct, or a red background if incorrect. Then,  button will appear 'Next' allowing them to proceed to the following question
     ![Tux, the Linux mascot](/assets/images/chooseanswer1.png) 
   - Once all six questions are answered, the player's score and name will be displayed. They will then have the option to choose whether they want to play again
@@ -72,10 +72,16 @@
    
     - 
         ![Tux, the Linux mascot](/assets/images/css.validator.screenshot.png)
+- JavaScript
+ - No errors were found when passing through the official Jshint validator
+    - There are 12 functions in this file.                       - Function with the largest signature take 1 arguments, while the median is 0.
+    - Largest function has 8 statements in it, while the median is 4.
+    - The most complex function has a cyclomatic complexity value of 3 while the median is 2.
 
 - Lighthouse test
 
   - ![Tux, the Linux mascot](/assets/images/lighthouse100.png)
+
     
  ## Unfixed Bugs
  - None
