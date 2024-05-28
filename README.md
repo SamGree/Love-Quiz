@@ -1,5 +1,4 @@
-
--  ![Tux, the Linux mascot](/assets/images/quiz-screenshot.png)
+  ![Tux, the Linux mascot](/assets/images/screenshot.natur.png)
 
 
 ## link to the website
@@ -7,10 +6,27 @@
 
 # Table of Contents
 ## Features
-   #### Existing Features
+#### Existing Features
+## Main page
+ - I chose this image of nature because my questions are about nature
+    ![Tux, the Linux mascot](/assets/images/natur.jpg)
+
 - Header
     - Featured at the top of the page, the header shows the game name WELLCOME TO QUIZ.
+    ![Tux, the Linux mascot](/assets/images/header.png)
     - A header that clearly tells the user what game they are playing, combined with the background image CSS
+- Start the game
+   - here is the part where can player type them name to enter the game
+    ![Tux, the Linux mascot](/assets/images/startquiz.png)
+- secound page
+   - After player logged in then questions will appear.
+    ![Tux, the Linux mascot](/assets/images/nextpage.png)
+   - After the player makes a choice, the answer will be highlighted with a green background if correct, or a red background if incorrect. Then,  button will appear 'Next' allowing them to proceed to the following question
+    ![Tux, the Linux mascot](/assets/images/chooseanswer1.png) 
+  - Once all six questions are answered, the player's score and name will be displayed. They will then have the option to choose whether they want to play again
+    ![Tux, the Linux mascot](/assets/images/result.png) 
+    
+       
 
 ## Site Overview
  ### Goal
@@ -21,14 +37,15 @@
    3. Challenge: Balance the difficulty to provide a rewarding challenge without being too frustrating.
    4. Feedback: Provide immediate feedback on answers to help players learn and improve.
 
-   ## Technologies used
+## Technologies used
 
    - HTML5 for the contents and structure of the website.
    - CSS for the styling.
    - Wireframing.
    - GitPod as a local IDE & repository.
    - GitHub Pages to deploy the website.
-   - Chrome Developer Tools for testing screen sizes and using Lighthouse.
+   - Chrome Developer Tools for testing screen sizes and using 
+    Lighthouse.
    - Wave Chrome extension to check web accessibility.
    - Am I Responsive for testing and to make responsive image.
    - JS functions and examples.
@@ -42,13 +59,13 @@
    - I want to play the game again if I get high score or less score.
 
    
-   #### Rules
-    - In this game, the first step is to enter your name. Once you've done that, you'll proceed to the next page where you can start answering questions and then receive your score.
+ ### Rules
+  - In this game, the first step is to enter your name. Once you've done that, you'll proceed to the next page where you can start answering questions and then receive your score.
 
-    ## Design
+ ## Design
+    
 
-
-    ## page test
+ ## Page test
  - HTML 
      - ![Tux, the Linux mascot](/assets/images/html.validator-screenshot%20.png)
 - CSS 
@@ -58,10 +75,10 @@
 
 - Lighthouse test
 
-  - ![Tux, the Linux mascot](/assets/images/quiz.lighthouse.screenshot.png)
+  - ![Tux, the Linux mascot](/assets/images/lighthouse100.png)
     
  ## Unfixed Bugs
- ---
+ - None
 
  ## Deployment
     
@@ -70,13 +87,16 @@
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-  ## Credits
-  - Some of the JavaScript code comes from open source YouTube resources and was explained to me by my friend Talal Mohamad, who had worked as a part time frontend developer.
-  - 
+ ## Credits
+  - Some of the codes comes from open source YouTube resources.
+ 
   ## Content
   -
   -
   ## Media
+  - Questions coming free from websites <https://livemore.yha.org.uk/natural-world-quiz/> 
+  - backgroung img come from <https://stock.adobe.com/search?k=%22nature+scene%22&asset_id=721959596>
+
 
     
 
