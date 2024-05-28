@@ -18,57 +18,57 @@ let username = ''; // Player's username
 // Array of questions with their answers and correct answer indication
 const questions = [
     {
-        question: "What year was the United Nations established?",
+        question: "Where is Table Mountain?",
         answers: [
-            { text: "1946", correct: false },
-            { text: "1951", correct: false },
-            { text: "1945", correct: true },
-            { text: "1948", correct: false },
+            { text: "Australia", correct: false },
+            { text: "South America", correct: false },
+            { text: "South Africa", correct: true },
+            { text: "new Zealand", correct: false },
         ]
     },
     {
-        question: "What country has the highest life expectancy?",
+        question: "After which animals are the Canary Islands named?",
         answers: [
-            { text: "Japan", correct: false },
-            { text: "Sweden", correct: false },
-            { text: "Ireland", correct: false },
-            { text: "Hong Kong", correct: true },
+            { text: "cats", correct: false },
+            { text: "Fox", correct: false },
+            { text: "birds", correct: false },
+            { text: "Dogs", correct: true },
         ]
     },
     {
-        question: "How many faces does a Dodecahedron have?",
+        question: "Can you name the world’s longest river(by Length)?",
         answers: [
-            { text: "9", correct: false },
-            { text: "12", correct: true },
-            { text: "14", correct: false },
-            { text: "16", correct: false },
+            { text: "Yangtze River", correct: false },
+            { text: "Nile River", correct: true },
+            { text: "Yellow River", correct: false },
+            { text: "Amazon River", correct: false },
         ]
     },
     {
-        question: "How many elements are in the periodic table?",
-        answers: [
-            { text: "108", correct: false },
-            { text: "118", correct: true },
-            { text: "181", correct: false },
-            { text: "98", correct: false },
-        ]
-    },
-    {
-        question: "What country drinks the most coffee per capita?",
+        question: "Which country has more lakes than the rest of the world combined?",
         answers: [
             { text: "Sweden", correct: false },
-            { text: "United Kingdom", correct: false },
-            { text: "Finland", correct: true },
-            { text: "Lebanon", correct: false },
+            { text: "Canada", correct: true },
+            { text: "Costa Rica", correct: false },
+            { text: "United kingdom", correct: false },
         ]
     },
     {
-        question: "Aureolin is a shade of what color?",
+        question: "Shiraz is a variety of which fruit?",
         answers: [
-            { text: "Yellow", correct: true },
-            { text: "Red", correct: false },
-            { text: "Blue", correct: false },
-            { text: "Orange", correct: false },
+            { text: "Pomegranate", correct: false },
+            { text: "Fikon", correct: false },
+            { text: "Grape", correct: true },
+            { text: "Fresh Gala Apple", correct: false },
+        ]
+    },
+    {
+        question: "What type of leaves does a koala feed on?",
+        answers: [
+            { text: "Eucalyptus", correct: true },
+            { text: "Oblong", correct: false },
+            { text: "Linear", correct: false },
+            { text: "Acicular", correct: false },
         ]
     }
 ];
