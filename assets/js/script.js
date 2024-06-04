@@ -84,6 +84,8 @@ form.addEventListener('submit', function(e) {
     }
 });
 
+
+
 // Function to shuffle the questions array
 function shuffleQuestions(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -91,8 +93,6 @@ function shuffleQuestions(array) {
         [array[i], array[j]] = [array[j], array[i]];
     }
 }
-
-
 
 
 
