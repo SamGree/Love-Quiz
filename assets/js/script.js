@@ -83,10 +83,28 @@ form.addEventListener('submit', function(e) {
         startQuiz(); // Start the quiz
     }
 });
+
+// Function to shuffle the questions array
+function shuffleQuestions(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
+
+
+
+
+
+
 // Function to start the quiz
 function startQuiz() {
     currentQuestionIndex = 0; // Reset the question index
     score = 0; // Reset the score
+
+    shuffleQuestions(questions); // Shuffle the questions
+
     nextButton.innerHTML = "Next"; // Set the button text
     showQuestion(); // Show the first question
 }
