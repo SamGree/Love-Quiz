@@ -11,9 +11,21 @@ const questionElement = document.getElementById('question');
 const answerButtons = document.getElementById('answer-buttons');
 const nextButton = document.getElementById('next-btn');
 
+
 let currentQuestionIndex = 0; // Current question index
 let score = 0; // Player's score
 let username = ''; // Player's username
+
+
+
+
+
+
+
+
+
+
+
 
 // Array of questions with their answers and correct answer indication
 const questions = [
@@ -102,12 +114,11 @@ function shuffleQuestions(array) {
 function startQuiz() {
     currentQuestionIndex = 0; // Reset the question index
     score = 0; // Reset the score
-
     shuffleQuestions(questions); // Shuffle the questions
-
     nextButton.innerHTML = "Next"; // Set the button text
     showQuestion(); // Show the first question
 }
+
 //create function to display a question
 function showQuestion() {
     resetState(); // Reset the quiz state
@@ -126,6 +137,13 @@ function showQuestion() {
         }
         button.addEventListener("click", selectAnswer); // Add event listener to the button
     });
+
+
+    
+    
+
+
+
 }
 
 // Function to reset the state of the quiz
@@ -134,10 +152,21 @@ function resetState() {
     while (answerButtons.firstChild) { // Remove all previous answer buttons
         answerButtons.removeChild(answerButtons.firstChild);
     }
+
+    
+  
+
+
 }
 
 //Create the Function to select the answer
 function selectAnswer(e) {
+
+   
+    
+
+
+
     const selectedBtn = e.target; // Get the selected button
     const isCorrect = selectedBtn.dataset.correct === "true"; // Check if the answer is correct
     if (isCorrect) {
@@ -192,6 +221,13 @@ function resetQuiz() {
     usernameForm.style.display = 'block'; // Show the username form
     quizContainer.style.display = 'none'; // Hide the quiz container
 }
+
+
+
+
+
+
+
 
 // Event listener for DOM content loaded to start the quiz
 document.addEventListener("DOMContentLoaded", startQuiz);
