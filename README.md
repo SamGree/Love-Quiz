@@ -73,7 +73,10 @@
    ![Tux, the Linux mascot](/assets/images/wireframe.q.s.mobile.png)  ![Tux, the Linux mascot](/assets/images/result.wireframe.mobile.png) 
 
 - Ipad wireframe for all pages from main page till result page. 
-   - ![Tux, the Linux mascot](/assets/images/ipad.wireframe.png) . ![Tux, the Linux mascot](/assets/images/ipad.q.p.png). ![Tux, the Linux mascot](/assets/images/ipd.wireframe.click.button.png).  ![Tux, the Linux mascot](/assets/images/ipad.result.wireframe%20.png).
+   - ![Tux, the Linux mascot](/assets/images/ipad.wireframe.png) . 
+   ![Tux, the Linux mascot](/assets/images/ipad.q.p.png).
+   ![Tux, the Linux mascot](/assets/images/ipd.wireframe.click.button.png).  
+   ![Tux, the Linux mascot](/assets/images/ipad.result.wireframe%20.png).
 
 - My website has a same structure for all  kind of device.
     
