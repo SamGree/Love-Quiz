@@ -1,4 +1,4 @@
-  ![Tux, the Linux mascot](/assets/images/responsive.screenshot.png)
+   ![Tux, the Linux mascot](/assets/images/responsive.screenshot.png)
 
 
 ## link to the website
@@ -25,8 +25,6 @@
     ![Tux, the Linux mascot](/assets/images/wronganswer.screenshot.png) 
    - when player make a choice button appear NEXT
      ![Tux, the Linux mascot](/assets/images/button.screenshot.png) 
-
-
 
   - Once all questions are answered, the player's score and name will be displayed. They will then have the option to choose whether they want to play again
     ![Tux, the Linux mascot](/assets/images/) 
@@ -68,6 +66,16 @@
   - In this game, the first step is to enter your name. Once you've done that, you'll proceed to the next page where you can start answering questions and then receive your score.
 
  ## Design
+ - Wireframe for mobile 
+    
+    ![Tux, the Linux mascot](/assets/images/firstpage.Mobile.png) 
+     
+   ![Tux, the Linux mascot](/assets/images/wireframe.q.s.mobile.png)  ![Tux, the Linux mascot](/assets/images/result.wireframe.mobile.png) 
+
+- Ipad wireframe for all pages from main page till result page. 
+   - ![Tux, the Linux mascot](/assets/images/ipad.wireframe.png) . ![Tux, the Linux mascot](/assets/images/ipad.q.p.png). ![Tux, the Linux mascot](/assets/images/ipd.wireframe.click.button.png).  ![Tux, the Linux mascot](/assets/images/ipad.result.wireframe%20.png).
+
+- My website has a same structure for all  kind of device.
     
 
  ## Page test
