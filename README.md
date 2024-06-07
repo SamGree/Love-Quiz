@@ -1,4 +1,4 @@
-  ![Tux, the Linux mascot](/assets/images/screenshot.natur.png)
+  ![Tux, the Linux mascot](/assets/images/responsive.screenshot.png)
 
 
 ## link to the website
@@ -9,22 +9,27 @@
 #### Existing Features
 ## Main page
  - I chose this image of nature because my questions are about nature
-    ![Tux, the Linux mascot](/assets/images/natur.jpg)
+    ![Tux, the Linux mascot](/assets/images/my.resize.img.jpg)
 
 - Header
-    - Featured at the top of the page, the header shows the game name WELLCOME TO QUIZ.
-    ![Tux, the Linux mascot](/assets/images/header.png)
+    - Featured at the top of the page, the header shows the game name Mind Challenge.
+    ![Tux, the Linux mascot](/assets/images/header.screenshoot.png)
     - A header that clearly tells the user what game they are playing, combined with the background image CSS
 - Start the game
-   - here is the part where can player type them name to enter the game.![Tux, the Linux mascot](/assets/images/startquiz.png)
+   - here is the part where can player type them name to enter the game.![Tux, the Linux mascot](/assets/images/login.screenshoot.png)
 - secound page
    - After player logged in then questions will appear.
-    ![Tux, the Linux mascot](/assets/images/nextpage.png)
+    ![Tux, the Linux mascot](/assets/images/questions.screenshot.png)
    
    - After the player makes a choice, the answer will be highlighted with a green background if correct, or a red background if incorrect. Then,  button will appear 'Next' allowing them to proceed to the following question
-    ![Tux, the Linux mascot](/assets/images/chooseanswer1.png) 
-  - Once all six questions are answered, the player's score and name will be displayed. They will then have the option to choose whether they want to play again
-    ![Tux, the Linux mascot](/assets/images/result.png) 
+    ![Tux, the Linux mascot](/assets/images/wronganswer.screenshot.png) 
+   - when player make a choice button appear NEXT
+     ![Tux, the Linux mascot](/assets/images/button.screenshot.png) 
+
+
+
+  - Once all questions are answered, the player's score and name will be displayed. They will then have the option to choose whether they want to play again
+    ![Tux, the Linux mascot](/assets/images/) 
     
        
 
