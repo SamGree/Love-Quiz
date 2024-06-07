@@ -27,7 +27,7 @@
      ![Tux, the Linux mascot](/assets/images/button.screenshot.png) 
 
   - Once all questions are answered, the player's score and name will be displayed. They will then have the option to choose whether they want to play again
-    ![Tux, the Linux mascot](/assets/images/) 
+    ![Tux, the Linux mascot](/assets/images/result.last.page.png) 
     
        
 
