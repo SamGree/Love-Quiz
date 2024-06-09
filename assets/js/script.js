@@ -11,21 +11,9 @@ const questionElement = document.getElementById('question');
 const answerButtons = document.getElementById('answer-buttons');
 const nextButton = document.getElementById('next-btn');
 
-
 let currentQuestionIndex = 0; // Current question index
 let score = 0; // Player's score
 let username = ''; // Player's username
-
-
-
-
-
-
-
-
-
-
-
 
 // Array of questions with their answers and correct answer indication
 const questions = [
@@ -86,7 +74,7 @@ const questions = [
 ];
 
 // Event listener for form submission to start the quiz
-form.addEventListener('submit', function(e) {
+form.addEventListener('submit', function (e) {
     e.preventDefault(); // Prevent the default form submission
     username = usernameInput.value; // Get the username
     if (username) { // If username is provided
@@ -96,8 +84,6 @@ form.addEventListener('submit', function(e) {
     }
 });
 
-
-
 // Function to shuffle the questions array
 function shuffleQuestions(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -105,10 +91,6 @@ function shuffleQuestions(array) {
         [array[i], array[j]] = [array[j], array[i]];
     }
 }
-
-
-
-
 
 // Function to start the quiz
 function startQuiz() {
@@ -125,8 +107,8 @@ function showQuestion() {
     let currentQuestion = questions[currentQuestionIndex]; // Get the current question
     let questionNo = currentQuestionIndex + 1; // Calculate the question number
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question; // Display the question
-    
-     // Create buttons for each answer
+
+    // Create buttons for each answer
     currentQuestion.answers.forEach(answer => {
         const button = document.createElement("button");
         button.innerHTML = answer.text;
@@ -138,12 +120,6 @@ function showQuestion() {
         button.addEventListener("click", selectAnswer); // Add event listener to the button
     });
 
-
-    
-    
-
-
-
 }
 
 // Function to reset the state of the quiz
@@ -152,21 +128,10 @@ function resetState() {
     while (answerButtons.firstChild) { // Remove all previous answer buttons
         answerButtons.removeChild(answerButtons.firstChild);
     }
-
-    
-  
-
-
 }
 
 //Create the Function to select the answer
 function selectAnswer(e) {
-
-   
-    
-
-
-
     const selectedBtn = e.target; // Get the selected button
     const isCorrect = selectedBtn.dataset.correct === "true"; // Check if the answer is correct
     if (isCorrect) {
@@ -221,13 +186,6 @@ function resetQuiz() {
     usernameForm.style.display = 'block'; // Show the username form
     quizContainer.style.display = 'none'; // Hide the quiz container
 }
-
-
-
-
-
-
-
 
 // Event listener for DOM content loaded to start the quiz
 document.addEventListener("DOMContentLoaded", startQuiz);

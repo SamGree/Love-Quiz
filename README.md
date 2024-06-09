@@ -6,8 +6,8 @@
 
 # Table of Contents
 ## Features
-#### Existing Features
-## Main page
+### Existing Features
+##### Main page
  - I chose this image of nature because my questions are about nature
     ![Tux, the Linux mascot](/assets/images/my.resize.img.jpg)
 
@@ -17,7 +17,7 @@
     - A header that clearly tells the user what game they are playing, combined with the background image CSS
 - Start the game
    - here is the part where can player type them name to enter the game.![Tux, the Linux mascot](/assets/images/login.screenshoot.png)
-- secound page
+#### secound page
    - After player logged in then questions will appear.
     ![Tux, the Linux mascot](/assets/images/questions.screenshot.png)
    
@@ -66,13 +66,13 @@
   - In this game, the first step is to enter your name. Once you've done that, you'll proceed to the next page where you can start answering questions and then receive your score.
 
  ## Design
- - Wireframe for mobile 
+ ### Wireframe for mobile 
     
-    ![Tux, the Linux mascot](/assets/images/firstpage.Mobile.png) 
+   - ![Tux, the Linux mascot](/assets/images/firstpage.Mobile.png) 
      
    ![Tux, the Linux mascot](/assets/images/wireframe.q.s.mobile.png)  ![Tux, the Linux mascot](/assets/images/result.wireframe.mobile.png) 
 
-- Ipad wireframe for all pages from main page till result page. 
+### Ipad wireframe for all pages from main page till result page. 
    - ![Tux, the Linux mascot](/assets/images/ipad.wireframe.png) . 
    ![Tux, the Linux mascot](/assets/images/ipad.q.p.png).
    ![Tux, the Linux mascot](/assets/images/ipd.wireframe.click.button.png).  
@@ -86,11 +86,11 @@
      - ![Tux, the Linux mascot](/assets/images/html.validator-screenshot%20.png)
 - CSS 
    
-    - 
-        ![Tux, the Linux mascot](/assets/images/css.validator.screenshot.png)
+    - ![Tux, the Linux mascot](/assets/images/css.validator.screenshot.png)
 - JavaScript
- - No errors were found when passing through the official Jshint validator
-    - There are 12 functions in this file.                       - Function with the largest signature take 1 arguments, while the median is 0.
+    - No errors were found when passing through the official Jshint validator.
+    - There are 13 functions in this file.                      
+    - Function with the largest signature take 1 arguments, while the median is 0.
     - Largest function has 8 statements in it, while the median is 4.
     - The most complex function has a cyclomatic complexity value of 3 while the median is 2.
 
@@ -110,14 +110,15 @@
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
  ## Credits
-  - Some of the codes comes from open source YouTube resources.
+  - I have watched youtube for Idea and structure how to  start and learn to build up my game ex, Web Dev Simplified.
  
   ## Content
-  -
-  -
+  - Favicon I created myself manually from this website, <https://www.favicon.cc/>
+  
   ## Media
-  - Questions coming free from websites <https://livemore.yha.org.uk/natural-world-quiz/> 
-  - backgroung img come from <https://stock.adobe.com/search?k=%22nature+scene%22&asset_id=721959596>
+  - I took questions from free resources website, <https://livemore.yha.org.uk/natural-world-quiz/> 
+  - Background image took it from free resources website, but I just resize it the image because was too lager. 
+  <https://stock.adobe.com/search?k=%22nature+scene%22&asset_id=721959596>
 
 
     
