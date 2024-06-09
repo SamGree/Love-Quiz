@@ -18,12 +18,48 @@ let username = ''; // Player's username
 // Array of questions with their answers and correct answer indication
 const questions = [
     {
+        question: "The dodo became extinct in which century?",
+        answers: [
+            { text: "17th", correct: true },
+            { text: "16th", correct: false },
+            { text: "19th", correct: false },
+            { text: "18th", correct: false },
+        ]
+    },
+    {
+        question: "What is the name for a baby rabbit?",
+        answers: [
+            { text: "Joey", correct: false },
+            { text: "kid", correct: false },
+            { text: "kit", correct: true },
+            { text: "Fawn", correct: false },
+        ]
+    },
+    {
+        question: "What is the scientific name for a fruit-eating animal?",
+        answers: [
+            { text: "Frugivore", correct: true },
+            { text: "Characidae", correct: false },
+            { text: "Quokka", correct: false },
+            { text: "Japanese beetle", correct: false },
+        ]
+    },
+    {
         question: "Where is Table Mountain?",
         answers: [
             { text: "Australia", correct: false },
             { text: "South America", correct: false },
             { text: "South Africa", correct: true },
             { text: "new Zealand", correct: false },
+        ]
+    },
+    {
+        question: "What is the world's fastest land animal?",
+        answers: [
+            { text: "Cheetah", correct: true },
+            { text: "Tiger", correct: false },
+            { text: "Deer", correct: false },
+            { text: "rabbit", correct: false },
         ]
     },
     {
