@@ -113,7 +113,10 @@
   - I have watched youtube for Idea and structure how to  start and learn to build up my game ex, Web Dev Simplified.
  
   ## Content
-  - Favicon I created myself manually from this website, <https://www.favicon.cc/>
+  - Favicon I created myself manually from this website, 
+    <https://www.favicon.cc/>
+   
+    - ![Tux, the Linux mascot](/assets/images/favicon.png)
   
   ## Media
   - I took questions from free resources these two websites, <https://livemore.yha.org.uk/natural-world-quiz/> 
