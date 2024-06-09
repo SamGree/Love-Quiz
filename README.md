@@ -116,7 +116,8 @@
   - Favicon I created myself manually from this website, <https://www.favicon.cc/>
   
   ## Media
-  - I took questions from free resources website, <https://livemore.yha.org.uk/natural-world-quiz/> 
+  - I took questions from free resources these two websites, <https://livemore.yha.org.uk/natural-world-quiz/> 
+  <https://www.trivianerd.com/topic/nature-trivia>
   - Background image took it from free resources website, but I just resize it the image because was too lager. 
   <https://stock.adobe.com/search?k=%22nature+scene%22&asset_id=721959596>
 
