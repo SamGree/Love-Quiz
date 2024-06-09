@@ -4,49 +4,53 @@
     box-sizing: border-box;
 }
 
-
-body { 
-    background-image: url("../images/my.resize.img.jpg"); 
-    background-size: cover; 
+body {
+    background-image: url("../images/my.resize.img.jpg");
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     height: 96vh;
     background-attachment: fixed;
-  
 }
+
 .first-h1 {
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: sans-serif;
-    font-size: 1.5rem; padding-top: 8rem;
+    font-size: 1.5rem;
+    padding-top: 8rem;
 }
-
-
 
 h1 {
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: sans-serif;
-    font-size: 1.5rem; padding-top: 1rem;
+    font-size: 1.5rem;
+    padding-top: 1rem;
 }
 
 .first-enter {
-    padding: 2px; font-size: 1rem; color: rgb(255, 255, 255);
+    padding: 2px;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
 }
 
-#username { 
+#username {
     padding: 5px;
     border-radius: 4px;
     cursor: pointer;
     margin-left: 1px;
-           }
+}
+
 #username:hover {
     background: #ad9696;
     color: rgb(255, 255, 255);
 }
+
 #form {
-    color: #ffffff; 
-    font-size: 1.2em; text-align: center;
+    color: #ffffff;
+    font-size: 1.2em;
+    text-align: center;
 }
 
 #btn {
@@ -59,10 +63,9 @@ h1 {
     margin-left: 1rem;
 }
 
-#btn:hover{
+#btn:hover {
     background: #ad9696;
     color: rgb(253, 244, 244);
-
 }
 
 .app {
@@ -74,6 +77,7 @@ h1 {
     border-radius: 10px;
     padding: 30px;
 }
+
 .app h1 {
     font-size: 23px;
     color: #feffff;
@@ -81,18 +85,21 @@ h1 {
     border-bottom: 1px solid #ffffff;
     padding-bottom: 30px;
 }
-.quiz  {
+
+.quiz {
     padding: 20px 0;
 }
+
 .quiz h2 {
     font-size: 11px;
     color: #f9f9f9;
     font-weight: 600;
 }
+
 /*style the buttons*/
 .btn {
     background: rgb(246, 244, 244);
-    color:#222020;
+    color: #222020;
     font-weight: 500;
     width: 100%;
     border: 1px solid rgb(18, 14, 14);
@@ -103,13 +110,16 @@ h1 {
     cursor: pointer;
     transition: all 0.4s;
 }
+
 .btn:hover:not([disabled]) {
     background: #343030;
     color: rgb(253, 244, 244);
 }
-.btn:disabled{
+
+.btn:disabled {
     cursor: no-drop;
 }
+
 /*style the button (Next)*/
 #next-btn {
     background: #001e4d;
@@ -137,10 +147,9 @@ h1 {
     .quiz h2 {
         font-size: 14px;
     }
-
 }
 
-@media screen and (min-width: 390px){
+@media screen and (min-width: 390px) {
     #btn {
         width: 6.5rem;
         margin-top: 0.5rem;
@@ -151,67 +160,67 @@ h1 {
     h1 {
         font-size: 2.2rem;
     }
+
     .first-h1 {
         font-size: 2.2rem;
     }
 }
-   
-@media screen and (min-width: 481px){
-#btn {
-    width: 6.5rem;
-    margin-top: 0.5rem;
-    padding: 3.5px 7.5px;
-    margin-left: 1rem;
-}
-.app h1 {
-    font-size: 32px;
-}
+
+@media screen and (min-width: 481px) {
+    #btn {
+        width: 6.5rem;
+        margin-top: 0.5rem;
+        padding: 3.5px 7.5px;
+        margin-left: 1rem;
+    }
+
+    .app h1 {
+        font-size: 32px;
+    }
 }
 
-
-@media (min-width: 576px){
+@media (min-width: 576px) {
     .quiz h2 {
         font-size: 16px;
     }
+
     .app h1 {
         font-size: 26px;
     }
-
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     .first-h1 {
         font-size: 3.8rem;
     }
-    
+
     h1 {
         font-size: 3.8rem;
     }
-    
+
     .quiz h2 {
         font-size: 18px;
     }
+
     .app h1 {
-        font-size: 40px; 
+        font-size: 40px;
         text-align: center;
     }
-   
-
 }
 
- /*larger devices (laptops desktop, 992px and up)*/
- @media screen and (min-width: 992px){
+/*larger devices (laptops desktop, 992px and up)*/
+@media screen and (min-width: 992px) {
     .quiz h2 {
         font-size: 18px;
     }
- }
+}
 
- @media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
     .first-h1 {
         font-size: 5.8rem;
     }
+
     .quiz h2 {
         font-size: 20px;
     }
-
- }
+}
