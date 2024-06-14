@@ -246,7 +246,7 @@ function startCountdown() {
 
 // Founction to stop countdown
 function stopCountdown () {
-    clearInterval(countdown)
+    clearInterval(countdown);
     timerElement.innerHTML = '';
 }
 

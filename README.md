@@ -63,8 +63,8 @@
 
    
  ### Rules
-  - In this game, the first step is to enter your name. Once you've done that, you'll proceed to the next page where you can start answering questions and then receive your score.
-
+  - In this game, the first step is to enter your name. Once you've done that, you'll proceed to the next page where you can start answering questions. A timer will be active, giving you 15 seconds to answer each question. If you don't answer within the time limit, the current question will disappear, and the next question will be displayed automatically, player will receive the score after going through all 10 questions.
+ 
  ## Design
  ### Wireframe for mobile 
     
@@ -89,9 +89,9 @@
     - ![Tux, the Linux mascot](/assets/images/css.validator.screenshot.png)
 - JavaScript
     - No errors were found when passing through the official Jshint validator.
-    - There are 13 functions in this file.                      
+    - There are 16 functions in this file.                      
     - Function with the largest signature take 1 arguments, while the median is 0.
-    - Largest function has 8 statements in it, while the median is 4.
+    - Largest function has 9 statements in it, while the median is 4.
     - The most complex function has a cyclomatic complexity value of 3 while the median is 2.
 
 - Lighthouse test
