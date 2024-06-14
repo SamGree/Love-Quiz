@@ -143,6 +143,10 @@ h1 {
     background: #fa8f8f;
 }
 
+#timer {
+    color: #79e36b;
+  }
+
 @media (min-width: 320px) {
     .quiz h2 {
         font-size: 14px;
