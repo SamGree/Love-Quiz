@@ -18,16 +18,16 @@
 - Start the game
    - here is the part where can player type them name to enter the game.![Tux, the Linux mascot](/assets/images/login.screenshoot.png)
 #### secound page
-   - After player logged in then questions will appear.
-    ![Tux, the Linux mascot](/assets/images/questions.screenshot.png)
+   - After player logged in then questions will appear with the timer, if player run out of time, game will move onto the next question automatically.
+    ![Tux, the Linux mascot](/assets/images/countdown.png)
    
    - After the player makes a choice, the answer will be highlighted with a green background if correct, or a red background if incorrect. Then,  button will appear 'Next' allowing them to proceed to the following question
     ![Tux, the Linux mascot](/assets/images/wronganswer.screenshot.png) 
    - when player make a choice button appear NEXT
      ![Tux, the Linux mascot](/assets/images/button.screenshot.png) 
 
-  - Once all questions are answered, the player's score and name will be displayed. They will then have the option to choose whether they want to play again
-    ![Tux, the Linux mascot](/assets/images/result.last.page.png) 
+  - Once player go through all questions, the player's score and name will be displayed. Then player have the option to play again if they want to.
+    ![Tux, the Linux mascot](/assets/images/final.png) 
     
        
 
@@ -69,14 +69,14 @@
  ### Wireframe for mobile 
     
    - ![Tux, the Linux mascot](/assets/images/firstpage.Mobile.png) 
-   - ![Tux, the Linux mascot](/assets/images/questions.start.page.png)
+   - ![Tux, the Linux mascot](/assets/images/timer.png)
    ![Tux, the Linux mascot](/assets/images/wireframe.q.s.mobile.png)  ![Tux, the Linux mascot](/assets/images/result.wireframe.mobile.png) 
 
 ### Ipad wireframe for all pages from main page till result page. 
    - ![Tux, the Linux mascot](/assets/images/ipad.wireframe.png) . 
-   ![Tux, the Linux mascot](/assets/images/ipad.q.p.png).
-   ![Tux, the Linux mascot](/assets/images/ipd.wireframe.click.button.png).  
-   ![Tux, the Linux mascot](/assets/images/ipad.result.wireframe%20.png).
+   ![Tux, the Linux mascot](/assets/images/ipad.last.png).
+   ![Tux, the Linux mascot](/assets/images/ipad.select.png).  
+   ![Tux, the Linux mascot](/assets/images/ipad.result.png).
 
 - My website has a same structure for all  kind of devices.
     
