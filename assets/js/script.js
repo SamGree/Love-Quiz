@@ -10,10 +10,12 @@ const quizContainer = document.getElementById('quiz-container');
 const questionElement = document.getElementById('question');
 const answerButtons = document.getElementById('answer-buttons');
 const nextButton = document.getElementById('next-btn');
+const timerElement = document.getElementById('timer'); //Timer 
 
 let currentQuestionIndex = 0; // Current question index
 let score = 0; // Player's score
 let username = ''; // Player's username
+let countdown; // Variable to hold countdown interval
 
 // Array of questions with their answers and correct answer indication
 const questions = [
@@ -140,6 +142,7 @@ function startQuiz() {
 //create function to display a question
 function showQuestion() {
     resetState(); // Reset the quiz state
+    startCountdown();// Start a timer
     let currentQuestion = questions[currentQuestionIndex]; // Get the current question
     let questionNo = currentQuestionIndex + 1; // Calculate the question number
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question; // Display the question
@@ -164,6 +167,7 @@ function resetState() {
     while (answerButtons.firstChild) { // Remove all previous answer buttons
         answerButtons.removeChild(answerButtons.firstChild);
     }
+    stopCountdown(); // Stop timer
 }
 
 //Create the Function to select the answer
@@ -185,6 +189,7 @@ function selectAnswer(e) {
         button.disabled = true; // Disable all buttons
     });
     nextButton.style.display = "block"; // Show the next button
+    stopCountdown(); // Countdown will stop if you click any answer
 }
 
 // Function to display the score
@@ -221,6 +226,28 @@ function resetQuiz() {
     usernameInput.value = ''; // Clear the input field
     usernameForm.style.display = 'block'; // Show the username form
     quizContainer.style.display = 'none'; // Hide the quiz container
+}
+
+//function for countdown timer
+function startCountdown() {
+    let timeLeft = 15;
+    timerElement.innerHTML = `Time left: ${timeLeft}s`;
+
+    countdown = setInterval(() => {
+        timeLeft--;
+        timerElement.innerHTML = `Time left: ${timeLeft}s`;
+        
+        if (timeLeft <= 0) {
+            clearInterval(countdown);
+            handleNextButton();// Move to next question if time run out, automatically
+        }
+    }, 1000);
+}
+
+// Founction to stop countdown
+function stopCountdown () {
+    clearInterval(countdown)
+    timerElement.innerHTML = '';
 }
 
 // Event listener for DOM content loaded to start the quiz
