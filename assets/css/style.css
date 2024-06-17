@@ -12,11 +12,9 @@ body {
     height: 96vh;
     background-attachment: fixed;
 }
-
+/*main page background color and size*/
 #username-form{
-    border: 1px solid rgb(18, 12, 12);
     padding-bottom: 2rem; 
-    /* width: 210px; */
     margin-top: 4rem;
     border-radius: 10px;
     background: #0a153266;
@@ -162,6 +160,13 @@ h1 {
 }
 
 @media screen and (min-width: 390px) {
+    #username-form {
+        padding-bottom: 2rem; 
+        margin-top: 4rem;
+        background: #0a153266;
+    }
+    
+
     #btn {
         width: 6.5rem;
         margin-top: 0.5rem;
@@ -179,6 +184,13 @@ h1 {
 }
 
 @media screen and (min-width: 481px) {
+    #username-form{
+        padding-bottom: 2rem; 
+        margin: 4rem 4rem 0 4rem;
+        background: #0a153266;
+    }
+    
+
     #btn {
         width: 6.5rem;
         margin-top: 0.5rem;
@@ -192,6 +204,13 @@ h1 {
 }
 
 @media (min-width: 576px) {
+    #username-form{
+        padding-bottom: 2rem; 
+        margin-top: 4rem;
+        border-radius: 10px;
+        background: #0a153266;
+    }
+    
     .quiz h2 {
         font-size: 16px;
     }
@@ -202,6 +221,11 @@ h1 {
 }
 
 @media screen and (min-width: 768px) {
+    #username-form{
+        padding-bottom: 2rem; 
+        margin: 4rem 10rem 0 10rem;
+        }
+    
     .first-h1 {
         font-size: 3.8rem;
     }
@@ -221,13 +245,17 @@ h1 {
 }
 
 /*larger devices (laptops desktop, 992px and up)*/
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) { 
     .quiz h2 {
         font-size: 18px;
     }
 }
 
 @media screen and (min-width: 1200px) {
+    #username-form{
+        padding-bottom: 2rem; 
+        margin: 4rem 15rem 0 15rem;
+        }
     .first-h1 {
         font-size: 5.8rem;
     }
