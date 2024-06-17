@@ -1,10 +1,32 @@
    ![Tux, the Linux mascot](/assets/images/responsive.screenshot.png)
 
 
-## link to the website
+# link to the website
  - <https://samgree.github.io/Love-Quiz/>
 
-# Table of Contents
+# Table of Contents  
+
+## Site Overview
+### Goal
+ - Creating a quiz game involves setting clear goals to ensure the game is engaging, educational, and enjoyable for players. 
+   Here are some key goals to consider when creating a quiz game:
+   - Engagement: Ensure the game is fun and engaging to keep players interested.
+   - Educational Value: Provide informative and educational content to enhance players' knowledge.
+   - Challenge: Balance the difficulty to provide a rewarding challenge without being too frustrating.
+   - Feedback: Provide immediate feedback on answers to help players learn and improve.
+
+### User Stories
+- As a user:
+   - I want to easily understand the purpose of the site.
+   - I want to understand how to play the game.
+   - i want easily to start the game by just entering my name or any other player.
+   - I want to play the game again if I get high score or less score.
+
+   
+ ### Rules
+  - In this game, the first step is to enter your name. Once you've done that, you'll proceed to the next page where you can start answering questions. A timer will be active, giving you 15 seconds to answer each question. If you don't answer within the time limit, the current question will disappear, and the next question will be displayed automatically, player will receive the score after going through all 10 questions.
+ 
+## Design
 ## Features
 ### Existing Features
 ##### Main page
@@ -26,19 +48,8 @@
    - when player make a choice button appear NEXT
      ![Tux, the Linux mascot](/assets/images/button.screenshot.png) 
 
-  - Once player go through all questions, the player's score and name will be displayed. Then player have the option to play again if they want to.
+  - Once player go through all questions, the player's score and name will  be displayed. Then player have the option to play again if they want to.
     ![Tux, the Linux mascot](/assets/images/final.png) 
-    
-       
-
-## Site Overview
- ### Goal
- - Creating a quiz game involves setting clear goals to ensure the game is engaging, educational, and enjoyable for players. 
-   Here are some key goals to consider when creating a quiz game:
-   1. Engagement: Ensure the game is fun and engaging to keep players interested.
-   2. Educational Value: Provide informative and educational content to enhance players' knowledge.
-   3. Challenge: Balance the difficulty to provide a rewarding challenge without being too frustrating.
-   4. Feedback: Provide immediate feedback on answers to help players learn and improve.
 
 ## Technologies used
 
@@ -52,25 +63,14 @@
    - Wave Chrome extension to check web accessibility.
    - Am I Responsive for testing and to make responsive image.
    - JS functions and examples.
-   - Visual Studio Code as a local IDE & repository.
-
-### User Stories
-- As a user:
-   - I want to easily understand the purpose of the site.
-   - I want to understand how to play the game.
-   - i want easily to start the game by just entering my name or any other player.
-   - I want to play the game again if I get high score or less score.
-
-   
- ### Rules
-  - In this game, the first step is to enter your name. Once you've done that, you'll proceed to the next page where you can start answering questions. A timer will be active, giving you 15 seconds to answer each question. If you don't answer within the time limit, the current question will disappear, and the next question will be displayed automatically, player will receive the score after going through all 10 questions.
- 
- ## Design
- ### Wireframe for mobile 
+   - Visual Studio Code as a local IDE & repository.    
     
+
+### Wireframe for mobile 
    - ![Tux, the Linux mascot](/assets/images/firstpage.mobile.png) 
-   - ![Tux, the Linux mascot](/assets/images/timer.png)
-   ![Tux, the Linux mascot](/assets/images/wireframe.q.s.mobile.png)  ![Tux, the Linux mascot](/assets/images/result.wireframe.mobile.png) 
+   -  ![Tux, the Linux mascot](/assets/images/timer.png)
+   - ![Tux, the Linux mascot](/assets/images/wireframe.q.s.mobile.png)  
+     ![Tux, the Linux mascot](/assets/images/result.wireframe.mobile.png) 
 
 ### Ipad wireframe for all pages from main page till result page. 
    - ![Tux, the Linux mascot](/assets/images/ipad.wireframe.png) . 
@@ -96,7 +96,7 @@
 
 - Lighthouse test
 
-  - ![Tux, the Linux mascot](/assets/images/lighthouse100.png)
+  - ![Tux, the Linux mascot](/assets/images/lighthouse.final.png)
 
     
  ## Unfixed Bugs
