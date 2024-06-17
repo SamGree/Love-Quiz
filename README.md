@@ -1,4 +1,4 @@
-   ![Tux, the Linux mascot](/assets/images/responsive.screenshot.png)
+   ![Tux, the Linux mascot](/assets/images/ami.responsive.png)
 
 
 # link to the website
@@ -34,11 +34,11 @@
     ![Tux, the Linux mascot](/assets/images/my.resize.img.jpg)
 
 - Header
-    - Featured at the top of the page, the header shows the game name Mind Challenge.
-    ![Tux, the Linux mascot](/assets/images/header.screenshoot.png)
+    - Featured at the top of the page, the header shows the game name Brainy Quiz.
+    ![Tux, the Linux mascot](/assets/images/brainy.quiz.png)
     - A header that clearly tells the user what game they are playing, combined with the background image CSS
 - Start the game
-   - here is the part where can player type them name to enter the game.![Tux, the Linux mascot](/assets/images/login.screenshoot.png)
+   - here is the part where can player type them name to enter the game.![Tux, the Linux mascot](/assets/images/login.now.png)
 #### second page
    - After player logged in then questions will appear with the timer, if player run out of time, game will move onto the next question automatically.
     ![Tux, the Linux mascot](/assets/images/countdown.png)
