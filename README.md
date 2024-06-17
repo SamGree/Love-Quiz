@@ -51,21 +51,6 @@
   - Once player go through all questions, the player's score and name will  be displayed. Then player have the option to play again if they want to.
     ![Tux, the Linux mascot](/assets/images/final.png) 
 
-## Technologies used
-
-   - HTML5 for the contents and structure of the website.
-   - CSS for the styling.
-   - Wireframing.
-   - GitPod as a local IDE & repository.
-   - GitHub Pages to deploy the website.
-   - Chrome Developer Tools for testing screen sizes and using 
-    Lighthouse.
-   - Wave Chrome extension to check web accessibility.
-   - Am I Responsive for testing and to make responsive image.
-   - JS functions and examples.
-   - Visual Studio Code as a local IDE & repository.    
-    
-
 ### Wireframe for mobile 
    - ![Tux, the Linux mascot](/assets/images/firstpage.mobile.png) 
    -  ![Tux, the Linux mascot](/assets/images/timer.png)
@@ -97,6 +82,20 @@
 - Lighthouse test
 
   - ![Tux, the Linux mascot](/assets/images/lighthouse.final.png)
+
+## Technologies used
+
+   - HTML5 for the contents and structure of the website.
+   - CSS for the styling.
+   - Wireframing.
+   - GitPod as a local IDE & repository.
+   - GitHub Pages to deploy the website.
+   - Chrome Developer Tools for testing screen sizes and using 
+    Lighthouse.
+   - Wave Chrome extension to check web accessibility.
+   - Am I Responsive for testing and to make responsive image.
+   - JS functions and examples.
+   - Visual Studio Code as a local IDE & repository.     
 
     
  ## Unfixed Bugs
