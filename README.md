@@ -52,13 +52,13 @@
     ![Tux, the Linux mascot](/assets/images/final.png) 
 
 ### Wireframe for mobile 
-   - ![Tux, the Linux mascot](/assets/images/firstpage.mobile.png) 
+   - ![Tux, the Linux mascot](/assets/images/brainy.quiz.mobile.png) 
    -  ![Tux, the Linux mascot](/assets/images/timer.png)
    - ![Tux, the Linux mascot](/assets/images/wireframe.q.s.mobile.png)  
      ![Tux, the Linux mascot](/assets/images/result.wireframe.mobile.png) 
 
 ### Ipad wireframe for all pages from main page till result page. 
-   - ![Tux, the Linux mascot](/assets/images/ipad.wireframe.png) . 
+   - ![Tux, the Linux mascot](/assets/images/brainy.ipad.png) . 
    ![Tux, the Linux mascot](/assets/images/ipad.last.png).
    ![Tux, the Linux mascot](/assets/images/ipad.select.png).  
    ![Tux, the Linux mascot](/assets/images/ipad.result.png).
