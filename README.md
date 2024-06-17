@@ -17,7 +17,7 @@
     - A header that clearly tells the user what game they are playing, combined with the background image CSS
 - Start the game
    - here is the part where can player type them name to enter the game.![Tux, the Linux mascot](/assets/images/login.screenshoot.png)
-#### secound page
+#### second page
    - After player logged in then questions will appear with the timer, if player run out of time, game will move onto the next question automatically.
     ![Tux, the Linux mascot](/assets/images/countdown.png)
    
