@@ -68,7 +68,7 @@
  ## Design
  ### Wireframe for mobile 
     
-   - ![Tux, the Linux mascot](/assets/images/firstpage.Mobile.png) 
+   - ![Tux, the Linux mascot](/assets/images/firstpage.mobile.png) 
    - ![Tux, the Linux mascot](/assets/images/timer.png)
    ![Tux, the Linux mascot](/assets/images/wireframe.q.s.mobile.png)  ![Tux, the Linux mascot](/assets/images/result.wireframe.mobile.png) 
 
