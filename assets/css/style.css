@@ -121,7 +121,7 @@ h1 {
     background: #343030;
     color: rgb(253, 244, 244);
 }
-
+/*button when is not interactable */
 .btn:disabled {
     cursor: no-drop;
 }
@@ -140,15 +140,15 @@ h1 {
     display: none;
     text-align: center;
 }
-
+/*color for questins if correct*/
 .correct {
     background: #8ee0b1;
 }
-
+/*color for questins if wrong*/
 .incorrect {
     background: #fa8f8f;
 }
-
+/*color style for timer in second page*/
 #timer {
     color: #79e36b;
   }
