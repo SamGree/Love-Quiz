@@ -109,7 +109,9 @@
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
  ## Credits
-  - I have watched youtube for Idea and structure how to  start and learn to build up my game ex, Web Dev Simplified.
+  - Luke Buchanan my mentor.
+  - I have watched youtube for Idea and structure how to  start and learn to build up my game,
+  <https://www.youtube.com/watch?v=PBcqGxrr9g8>
  
   ## Content
   - Favicon I created myself manually from this website, 
