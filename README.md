@@ -112,7 +112,7 @@
   - Luke Buchanan my mentor.
   - I have watched youtube for Idea and structure how to  start and learn to build up my game,
   <https://www.youtube.com/watch?v=PBcqGxrr9g8>
- 
+  - Use chatGPT for help to create code for timer.
   ## Content
   - Favicon I created myself manually from this website, 
     <https://www.favicon.cc/>
