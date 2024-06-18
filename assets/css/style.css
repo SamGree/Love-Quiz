@@ -3,7 +3,7 @@
     font-family: sans-serif;
     box-sizing: border-box;
 }
-
+/*background img for both page*/
 body {
     background-image: url("../images/my.resize.img.jpg");
     background-size: cover;
@@ -12,21 +12,21 @@ body {
     height: 96vh;
     background-attachment: fixed;
 }
-/*main page background color and size*/
+/*main page background color and size for header and label input*/
 #username-form{
     padding-bottom: 2rem; 
     margin-top: 4rem;
     border-radius: 10px;
     background: #0a153266;
 }
-
+/*style the header in main page*/
 .first-h1 {
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: sans-serif;
     font-size: 1.5rem;
 }
-
+/*style header in second page*/
 h1 {
     color: rgb(255, 255, 255);
     text-align: center;
@@ -34,7 +34,7 @@ h1 {
     font-size: 1.5rem;
     padding-top: 1rem;
 }
-
+/*style input first page*/
 .first-enter {
     padding: 2px;
     font-size: 1rem;
