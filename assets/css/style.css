@@ -101,7 +101,6 @@ h1 {
     color: #f9f9f9;
     font-weight: 600;
 }
-
 /*style the buttons*/
 .btn {
     background: rgb(246, 244, 244);
@@ -125,7 +124,6 @@ h1 {
 .btn:disabled {
     cursor: no-drop;
 }
-
 /*style the button (Next)*/
 #next-btn {
     background: #001e4d;

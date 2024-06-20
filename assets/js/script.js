@@ -158,7 +158,6 @@ function showQuestion() {
         }
         button.addEventListener("click", selectAnswer); // Add event listener to the button
     });
-
 }
 
 // Function to reset the state of the quiz
@@ -232,12 +231,10 @@ function resetQuiz() {
 function startCountdown() {
     let timeLeft = 15;
     timerElement.innerHTML = `Time left: ${timeLeft}s`;
-
     countdown = setInterval(() => {
         timeLeft--;
         timerElement.innerHTML = `Time left: ${timeLeft}s`;
-        
-        if (timeLeft <= 0) {
+                if (timeLeft <= 0) {
             clearInterval(countdown);
             handleNextButton();// Move to next question if time run out, automatically
         }
