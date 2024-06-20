@@ -1,4 +1,4 @@
-   ![Tux, the Linux mascot](/assets/images/ami.responsive.png)
+![Tux, the Linux mascot](/assets/images/ami.responsive.png)
 
 
 # link to the website
@@ -19,18 +19,18 @@
 - As a user:
    - I want to easily understand the purpose of the site.
    - I want to understand how to play the game.
-   - i want easily to start the game by just entering my name or any other player.
-   - I want to play the game again if I get high score or less score.
-
+   - I want to easily start the game by just entering my name or any other player's name.
+   - I want to play the game again if I get a high or low score.
+ 
    
  ### Rules
-  - In this game, the first step is to enter your name. Once you've done that, you'll proceed to the next page where you can start answering questions. A timer will be active, giving you 15 seconds to answer each question. If you don't answer within the time limit, the current question will disappear, and the next question will be displayed automatically, player will receive the score after going through all 10 questions.
+  - In this game, the first step is to enter your name. Once you've done that, you'll proceed to the next page where you can start answering questions. A timer will be active, giving you 15 seconds to answer each question. If you don't answer within the time limit, the current question will disappear, and the next question will be displayed automatically, the player will receive the score after going through all 10 questions.
  
 ## Design
 ## Features
 ### Existing Features
 ##### Main page
- - I chose this image of nature because my questions are about nature
+ - I chose this image of nature because my questions are about nature.
     ![Tux, the Linux mascot](/assets/images/my.resize.img.jpg)
 
 - Header
@@ -38,32 +38,35 @@
     ![Tux, the Linux mascot](/assets/images/brainy.quiz.png)
     - A header that clearly tells the user what game they are playing, combined with the background image CSS
 - Start the game
-   - here is the part where can player type them name to enter the game.![Tux, the Linux mascot](/assets/images/login.now.png)
+    - here is the part where can player type their name to enter the game.
+    ![Tux, the Linux mascot](/assets/images/login.now.png)
+
 #### second page
-   - After player logged in then questions will appear with the timer, if player run out of time, game will move onto the next question automatically.
+   - After the player logs in then questions will appear with the timer, if the player runs out of time, the game will move on to the next question automatically.
     ![Tux, the Linux mascot](/assets/images/countdown.png)
    
-   - After the player makes a choice, the answer will be highlighted with a green background if correct, or a red background if incorrect. Then,  button will appear 'Next' allowing them to proceed to the following question
-    ![Tux, the Linux mascot](/assets/images/wronganswer.screenshot.png) 
-   - when player make a choice button appear NEXT
+   - After the player makes a choice, the answer will be highlighted with a green background if correct, or a red background if incorrect. Then, the button will appear 'Next' allowing them to proceed to the following question.
+    
+     ![Tux, the Linux mascot](/assets/images/wronganswer.screenshot.png) 
+   - when a player makes a choice button appears NEXT
      ![Tux, the Linux mascot](/assets/images/button.screenshot.png) 
 
-  - Once player go through all questions, the player's score and name will  be displayed. Then player have the option to play again if they want to.
+  - Once the player goes through all questions, the player's score and name will be displayed. Then players have the option to play again if they want to.
     ![Tux, the Linux mascot](/assets/images/final.png) 
 
 ### Wireframe for mobile 
    - ![Tux, the Linux mascot](/assets/images/brainy.quiz.mobile.png) 
-   -  ![Tux, the Linux mascot](/assets/images/timer.png)
+   - ![Tux, the Linux mascot](/assets/images/timer.png)
    - ![Tux, the Linux mascot](/assets/images/wireframe.q.s.mobile.png)  
      ![Tux, the Linux mascot](/assets/images/result.wireframe.mobile.png) 
 
-### Ipad wireframe for all pages from main page till result page. 
+### iPad wireframe for all pages from the main page to the result page. 
    - ![Tux, the Linux mascot](/assets/images/brainy.ipad.png) . 
    ![Tux, the Linux mascot](/assets/images/ipad.last.png).
    ![Tux, the Linux mascot](/assets/images/ipad.select.png).  
    ![Tux, the Linux mascot](/assets/images/ipad.result.png).
 
-- My website has a same structure for all  kind of devices.
+- My website has same the structure for all kinds of devices.
     
 
  ## Page test
@@ -75,8 +78,8 @@
 - JavaScript
     - No errors were found when passing through the official Jshint validator.
     - There are 16 functions in this file.                      
-    - Function with the largest signature take 1 arguments, while the median is 0.
-    - Largest function has 9 statements in it, while the median is 4.
+    - Function with the largest signature takes 1 argument, while the median is 0.
+    - The Largest function has 9 statements in it, while the median is 4.
     - The most complex function has a cyclomatic complexity value of 3 while the median is 2.
 
 - Lighthouse test
@@ -93,7 +96,7 @@
    - Chrome Developer Tools for testing screen sizes and using 
     Lighthouse.
    - Wave Chrome extension to check web accessibility.
-   - Am I Responsive for testing and to make responsive image.
+   - Am I Responsive for testing and making responsive images?
    - JS functions and examples.
    - Visual Studio Code as a local IDE & repository.     
 
@@ -110,9 +113,9 @@
 
  ## Credits
   - Luke Buchanan my mentor.
-  - I have watched youtube for Idea and structure how to  start and learn to build up my game,
+  - I have watched YouTube for Idea and structure how to  start and learn to build up my game,
   <https://www.youtube.com/watch?v=PBcqGxrr9g8>
-  - Use chatGPT for help to create code for timer.
+  - Used ChatGPT for the idea of how to make code for login and timer.
   ## Content
   - Favicon I created myself manually from this website, 
     <https://www.favicon.cc/>
@@ -120,17 +123,7 @@
     - ![Tux, the Linux mascot](/assets/images/favicon.png)
   
   ## Media
-  - I took questions from free resources these two websites, <https://livemore.yha.org.uk/natural-world-quiz/> 
+  - I took questions from free resources on these two websites, <https://livemore.yha.org.uk/natural-world-quiz/> 
   <https://www.trivianerd.com/topic/nature-trivia>
-  - Background image took it from free resources website, but I just resize it the image because was too lager. 
+  - The background image was from a free resources website, but I just resized the image because was too large. 
   <https://stock.adobe.com/search?k=%22nature+scene%22&asset_id=721959596>
-
-
-    
-
-
-
-
-
-
-
