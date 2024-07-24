@@ -34,6 +34,10 @@ h1 {
     font-size: 1.5rem;
     padding-top: 1rem;
 }
+
+div > p {
+    color: #f9f9f9;
+}
 /*style input first page*/
 .first-enter {
     padding: 2px;

@@ -61,15 +61,15 @@ const questions = [
             { text: "Cheetah", correct: true },
             { text: "Tiger", correct: false },
             { text: "Deer", correct: false },
-            { text: "rabbit", correct: false },
+            { text: "Rabbit", correct: false },
         ]
     },
     {
         question: "After which animals are the Canary Islands named?",
         answers: [
-            { text: "cats", correct: false },
+            { text: "Cats", correct: false },
             { text: "Fox", correct: false },
-            { text: "birds", correct: false },
+            { text: "Birds", correct: false },
             { text: "Dogs", correct: true },
         ]
     },
