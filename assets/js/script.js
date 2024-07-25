@@ -234,6 +234,7 @@ function startCountdown() {
     countdown = setInterval(() => {
         timeLeft--;
         timerElement.innerHTML = `Time left: ${timeLeft}s`;
+        // Chatgpt was used to generate this statment as I was having error here
                 if (timeLeft <= 0) {
             clearInterval(countdown);
             handleNextButton();// Move to next question if time run out, automatically

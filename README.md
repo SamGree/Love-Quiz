@@ -113,9 +113,9 @@
 
  ## Credits
   - Luke Buchanan my mentor.
-  - I have watched YouTube for Idea and structure how to  start and learn to build up my game,
+  - Instructions on how to build the quiz including codes, were in taken from this tutorial
   <https://www.youtube.com/watch?v=PBcqGxrr9g8>
-  - Used ChatGPT for the idea of how to make code for login and timer.
+  - 
   ## Content
   - Favicon I created myself manually from this website, 
     <https://www.favicon.cc/>
