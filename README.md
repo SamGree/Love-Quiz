@@ -77,7 +77,7 @@
     - ![Tux, the Linux mascot](/assets/images/css.validator.screenshot.png)
 - JavaScript
     - No errors were found when passing through the official Jshint validator.
-    - There are 16 functions in this file.                      
+    - There are 15 functions in this file.                      
     - Function with the largest signature takes 1 argument, while the median is 0.
     - The Largest function has 9 statements in it, while the median is 4.
     - The most complex function has a cyclomatic complexity value of 3 while the median is 2.
@@ -115,7 +115,7 @@
   - Luke Buchanan my mentor.
   - Instructions on how to build the quiz including codes, were in taken from this tutorial
   <https://www.youtube.com/watch?v=PBcqGxrr9g8>
-  - 
+  - Used chatgpt for debugging. 
   ## Content
   - Favicon I created myself manually from this website, 
     <https://www.favicon.cc/>
@@ -127,3 +127,12 @@
   <https://www.trivianerd.com/topic/nature-trivia>
   - The background image was from a free resources website, but I just resized the image because was too large. 
   <https://stock.adobe.com/search?k=%22nature+scene%22&asset_id=721959596>
+
+## Update on Project information
+- I want to acknowledge that the initial documentation for this project was lacking in certain areas. Specifically, there was insufficient information provided about the origins and sources of the code. I apologize for any confusion this may have caused. 
+- I have updated the Credits section, to show and provide additional information about the contributions and sources used in this project.
+- line 237 (js), my timer function which was not working. ChatGPT picked up that I was using setInterval() wrong and corrected me, 
+- In the form where I had an extra div closing tag element , and ChatGPT corrected me by removing the element, because the element already had closing tag right after the form element in line 29 (HTML).
+
+- Instructions on how to build the quiz including codes, were in taken from this tutorial <https://www.youtube.com/watch?v=PBcqGxrr9g8>
+- Thank you for your understanding and patience. 

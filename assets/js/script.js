@@ -52,7 +52,7 @@ const questions = [
             { text: "Australia", correct: false },
             { text: "South America", correct: false },
             { text: "South Africa", correct: true },
-            { text: "new Zealand", correct: false },
+            { text: "New Zealand", correct: false },
         ]
     },
     {
