@@ -24,9 +24,8 @@
  
    
  ### Rules
-  - In this game, the first step is to enter your name. Once you've done that, you'll proceed to the next page where you can start answering questions. A timer will be active, giving you 15 seconds to answer each question. If you don't answer within the time limit, the current question will disappear, and the next question will be displayed automatically, the player will receive the score after going through all 10 questions.
+  - In this game, the first step is to enter your name.The player should enter their name using up to 12 characters, with no spaces. Once you've done that, you'll proceed to the next page where you can start answering questions. A timer will be active, giving you 15 seconds to answer each question. If you don't answer within the time limit, the current question will disappear, and the next question will be displayed automatically, the player will receive the score after going through all 10 questions.
  
-## Design
 ## Features
 ### Existing Features
 ##### Main page
