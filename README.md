@@ -4,7 +4,7 @@
 # link to the website
  - <https://samgree.github.io/Love-Quiz/>
 
-# Table of Contents  
+# Table of Contents.
 
 ## Site Overview
 ### Goal
