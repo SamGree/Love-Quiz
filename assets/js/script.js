@@ -229,7 +229,7 @@ function resetQuiz() {
 
 //function for countdown timer
 function startCountdown() {
-    let timeLeft = 15;
+    let timeLeft = 300;
     timerElement.innerHTML = `Time left: ${timeLeft}s`;
     countdown = setInterval(() => {
         timeLeft--;
