@@ -20,93 +20,93 @@ let countdown; // Variable to hold countdown interval
 // Array of questions with their answers and correct answer indication
 const questions = [
     {
-        question: "The dodo became extinct in which century?",
+        question: "1-För att avläsa på manometern ett tryck på 1,3 MPa (Megapascal) är det desamma som?",
         answers: [
-            { text: "17th", correct: true },
-            { text: "16th", correct: false },
-            { text: "19th", correct: false },
-            { text: "18th", correct: false },
+            { text: " 0,13 bar(e)", correct: false },
+            { text: "1,3 bar (e)", correct: false },
+            { text: "13 bar(e)", correct: true },
+            { text: "0.3 psi", correct: false },
         ]
     },
     {
-        question: "What is the name for a baby rabbit?",
+        question: "6-I vilket värde anges kyleffekten på en anläggning?",
         answers: [
-            { text: "Joey", correct: false },
-            { text: "kid", correct: false },
-            { text: "kit", correct: true },
-            { text: "Fawn", correct: false },
+            { text: "KJ/kg", correct: false },
+            { text: "KJ", correct: false },
+            { text: "kW", correct: true },
+            { text: "kNm", correct: false },
         ]
     },
     {
-        question: "What is the scientific name for a fruit-eating animal?",
+        question: "2-Du läser på manometern ett tryck på 10 bar (e), är det desamma som?",
         answers: [
-            { text: "Frugivore", correct: true },
-            { text: "Characidae", correct: false },
-            { text: "Quokka", correct: false },
-            { text: "Japanese beetle", correct: false },
+            { text: "1,0 MPa", correct: true },
+            { text: "0,1 Mpa", correct: false },
+            { text: "10,0 Mpa", correct: false },
+            { text: "20.1 psi", correct: false },
         ]
     },
     {
-        question: "Where is Table Mountain?",
+        question: "3-För att evakuera en anläggning och läsa av ett upp-mätt tryck på 1 mbar, är det desamma som?",
         answers: [
-            { text: "Australia", correct: false },
-            { text: "South America", correct: false },
-            { text: "South Africa", correct: true },
-            { text: "New Zealand", correct: false },
+            { text: "0,5 psi", correct: false },
+            { text: "0,1 psi", correct: false },
+            { text: "100 psi", correct: true },
+            { text: "750 psi", correct: false },
         ]
     },
     {
-        question: "What is the world's fastest land animal?",
+        question: "4-Du läser på en termometer att temperaturen är 0° C. Är det desamma som?",
         answers: [
-            { text: "Cheetah", correct: true },
-            { text: "Tiger", correct: false },
-            { text: "Deer", correct: false },
-            { text: "Rabbit", correct: false },
+            { text: "273 K", correct: true },
+            { text: "373 K", correct: false },
+            { text: "-273 K", correct: false },
+            { text: "0 K", correct: false },
         ]
     },
     {
-        question: "After which animals are the Canary Islands named?",
+        question: "5- I vilken sort anges den specifika värme-kapaciteten av ett ämne?",
         answers: [
-            { text: "Cats", correct: false },
-            { text: "Fox", correct: false },
-            { text: "Birds", correct: false },
-            { text: "Dogs", correct: true },
+            { text: "kW", correct: false },
+            { text: " kJ/s", correct: false },
+            { text: "kNm", correct: false },
+            { text: "kJ/kg K", correct: true },
         ]
     },
     {
-        question: "Can you name the world’s longest river(by Length)?",
+        question: "7. I vilken valör(enhet) kan man ange kyleffekten för en anläggning??",
         answers: [
-            { text: "Yangtze River", correct: false },
-            { text: "Nile River", correct: true },
-            { text: "Yellow River", correct: false },
-            { text: "Amazon River", correct: false },
+            { text: "kWh", correct: false },
+            { text: "kJ/s", correct: true },
+            { text: "kNm", correct: false },
+            { text: "K", correct: false },
         ]
     },
     {
-        question: "Which country has more lakes than the rest of the world combined?",
+        question: "8. I vilken valör kan man ange kondensoreffekten för en anläggning?",
         answers: [
-            { text: "Sweden", correct: false },
-            { text: "Canada", correct: true },
-            { text: "Costa Rica", correct: false },
-            { text: "United kingdom", correct: false },
+            { text: "kWh", correct: false },
+            { text: "kJ/s", correct: true },
+            { text: "kJ/kg K", correct: false },
+            { text: "kNm", correct: false },
         ]
     },
     {
-        question: "Shiraz is a variety of which fruit?",
+        question: "9. I vilken valör kan man ange kondensoreffekten för en anläggning?",
         answers: [
-            { text: "Pomegranate", correct: false },
-            { text: "Fikon", correct: false },
-            { text: "Grape", correct: true },
-            { text: "Fresh Gala Apple", correct: false },
+            { text: "kJ", correct: false },
+            { text: "kNm", correct: false },
+            { text: "kW", correct: true },
+            { text: "UK", correct: false },
         ]
     },
     {
-        question: "What type of leaves does a koala feed on?",
+        question: "10. Vilka av dessa beteckningar används för energi?",
         answers: [
-            { text: "Eucalyptus", correct: true },
-            { text: "Oblong", correct: false },
-            { text: "Linear", correct: false },
-            { text: "Acicular", correct: false },
+            { text: "kWh", correct: true },
+            { text: "kW", correct: false },
+            { text: "kJ/s", correct: false },
+            { text: "Amper", correct: false },
         ]
     }
 ];
