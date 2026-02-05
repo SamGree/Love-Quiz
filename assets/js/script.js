@@ -49,10 +49,10 @@ const questions = [
     {
         question: "3-För att evakuera en anläggning och läsa av ett upp-mätt tryck på 1 mbar, är det desamma som?",
         answers: [
-            { text: "0,5 psi", correct: false },
-            { text: "0,1 psi", correct: false },
-            { text: "100 psi", correct: true },
-            { text: "750 psi", correct: false },
+            { text: "0,5 Pa", correct: false },
+            { text: "0,1 Pa", correct: false },
+            { text: "100 Pa", correct: true },
+            { text: "750 Pa", correct: false },
         ]
     },
     {
