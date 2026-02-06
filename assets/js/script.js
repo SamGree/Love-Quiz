@@ -114,13 +114,25 @@ const questions = [
 // Event listener for form submission to start the quiz
 form.addEventListener('submit', function (e) {
     e.preventDefault(); // Prevent the default form submission
-    username = usernameInput.value; // Get the username
-    if (username) { // If username is provided
+
+    // 🔴 CHANGE 1: SAFETY CHECK (prevents crash)
+    if (!usernameInput) {
+        console.error("usernameInput not found in HTML");
+        return;
+    }
+
+    // 🔴 CHANGE 2: SAFE value access
+    const username = usernameInput.value.trim(); 
+
+    if (username !== "") { // If username is provided
         usernameForm.style.display = 'none'; // Hide the username form
         quizContainer.style.display = 'block'; // Show the quiz container
         startQuiz(); // Start the quiz
+    } else {
+        alert("Please enter your name"); // 🔴 optional but recommended
     }
 });
+
 
 // Function to shuffle the questions array
 function shuffleQuestions(array) {
