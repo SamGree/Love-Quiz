@@ -126,6 +126,150 @@ const questions = [
             { text: "En köldmediekomposition som kokar vid fallande temperatur", correct: false },
             
         ]
+    },
+    {
+        question: "13. Vad är en azeotropisk köldmedieblandning?",
+        answers: [
+            { text: "En köldmediekomposition som kondenserar vid stigande temperatur", correct: false },
+            { text: "En köldmediekomposition som kondenserar vid konstant temperatur", correct: true },
+            { text: "En köldmediekomposition som kondenserar vid fallande temperatur", correct: false },
+            
+        ]
+    },
+    {
+        question: "14. Vad är en zeotropisk köldmedieblandning?",
+        answers: [
+            { text: "En köldmediekomposition som kondenserar vid stigande temperatur", correct: false },
+            { text: "En köldmediekomposition som kondenserar vid konstant temperatur", correct: false },
+            { text: "En köldmediekomposition som kondenserar vid fallande temperatur", correct: true },
+            
+        ]
+    },
+    {
+        question: "15. Vilket av dessa köldmedier är ett zeotropiskt köld-medium?",
+        answers: [
+            { text: "R507", correct: false },
+            { text: "R422D", correct: true },
+            { text: "R600a", correct: false },
+            
+        ]
+    },
+    {
+        question: "16. Vilket av dessa köldmedier är ett azeotropiskt köld-medium?",
+        answers: [
+            { text: "R507", correct: true },
+            { text: "R407C", correct: false },
+            { text: "R290", correct: false },
+            
+        ]
+    },
+    {
+        question: "17. Vilket av dessa köldmedier är ett zeotropiskt köld-medium?",
+        answers: [
+            { text: "R410A", correct: true },
+            { text: "R152a", correct: false },
+            { text: "R134a", correct: false },
+            
+        ]
+    },
+    {
+        question: "18. Varför är köldmediet R410A miljöskadligt?",
+        answers: [
+            { text: "Eftersom det bryter ner ozonskiktet", correct: false },
+            { text: "Eftersom det både bryter ned ozonskiktet och har stor växthuseffekt", correct: false },
+            { text: "På grund av den stora växthuseffekten", correct: true },
+            
+        ]
+    },
+    {
+        question: "19. Hur kallt är det om du får en vätskespray med R410A på din hud?",
+        answers: [
+            { text: "Kallare än -52°C", correct: true },
+            { text: " Varmare än -52°C", correct: false },
+            { text: "Ca -52°C", correct: false },
+            
+        ]
+    },
+    {
+        question: "20. Varför är köldmediet R404A mer miljö-belastande än R134a?",
+        answers: [
+            { text: "Eftersom det bryter ner mer av ozonskiktet", correct: false },
+            { text: "Eftersom det är giftigt och frätande", correct: false },
+            { text: "Eftersom det har störst växthuseffekt", correct: true },
+            
+        ]
+    },
+    {
+        question: "21. Vilken av dessa gaser är en HFC gas?",
+        answers: [
+            { text: "R507", correct: true },
+            { text: "R600a", correct: false },
+            { text: "R290", correct: false },
+            
+        ]
+    },
+    {
+        question: "22. Vilken av dessa gaser är en HFC gas?",
+        answers: [
+            { text: "R410A", correct: true },
+            { text: "R22", correct: false },
+            { text: "R401A", correct: false },
+            
+        ]
+    },
+    {
+        question: "23. Vilken av dessa gaser ingår i Kyotoprotokollet?",
+        answers: [
+            { text: "R408A", correct: false },
+            { text: "R22", correct: false },
+            { text: "R407C", correct: true },
+            
+        ]
+    },
+    {
+        question: "24. Vilken grupp köldmedier är det som finns med i F-gasförordningen?",
+        answers: [
+            { text: "HCFC", correct: false },
+            { text: "HFC", correct: true },
+            { text: "CFC", correct: false },
+            
+        ]
+    },
+    {
+        question: "25. När köldmediet kokar i förångaren sker vad?",
+        answers: [
+            { text: "Ökar entalpin i köldmediet", correct: true },
+            { text: "Minskar entalpin i köldmediet", correct: false },
+            { text: "Entalpin är oförändrat i köldmediet", correct: false },
+            
+        ]
+    },
+    {
+        question: "26. När köldmediet kondenserar i kondensorn sker vad?",
+        answers: [
+            { text: "Ökar entalpin i köldmediet", correct: false },
+            { text: "Entalpin är oförändrat i köldmediet", correct: false },
+            { text: "Minskar entalpin i köldmediet", correct: true },
+            
+        ]
+    },
+    {
+        question: "27. När flytande köldmedium stryps i termostatiska ex-pansionsventilen vid förångaren sker?",
+        answers: [
+            { text: "Minskar entalpin i köldmediet", correct: false },
+            { text: "Ökar entalpin i köldmediet", correct: false },
+            { text: "Entalpin är oförändrat i köldmediet", correct: true },
+            
+        ]
+    },
+    {
+        question: "28. När gas i sugledningen till kompressorn innehåller vätska, så har vi?",
+        answers: [
+            { text: "För stor flytande fyllning i anläggningen", correct: false },
+            { text: "Otillräcklig överhettning", correct: true },
+            { text: "Otillräcklig underkylning", correct: false },
+            
+        ]
     }
 ];
 
