@@ -108,6 +108,24 @@ const questions = [
             { text: "kJ/s", correct: false },
             { text: "Amper", correct: false },
         ]
+    },
+    {
+        question: "11. Vad är en azeotropisk köldmedieblandning?",
+        answers: [
+            { text: "En köldmediekomposition som kokar vid konstant temperatur", correct: true },
+            { text: "En köldmediekomposition som kokar vid stigande temperatur", correct: false },
+            { text: "En köldmediekomposition som kokar vid fallande temperatur", correct: false },
+        
+        ]
+    },
+    {
+        question: "12. Vad är en zeotropisk köldmedieblandning?",
+        answers: [
+            { text: "En köldmediekomposition som kokar vid stigande temperatur", correct: true },
+            { text: "En köldmediekomposition som kokar vid konstant temperatur", correct: false },
+            { text: "En köldmediekomposition som kokar vid fallande temperatur", correct: false },
+            
+        ]
     }
 ];
 
