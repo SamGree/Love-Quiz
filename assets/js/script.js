@@ -270,6 +270,78 @@ const questions = [
             { text: "Otillräcklig underkylning", correct: false },
             
         ]
+    },
+    {
+        question: "29. I ett rör på ett R410A-system mäter du att övertrycket är 4,5 bar (e) och temperaturen är + 10°C. Vad är det i röret?",
+        answers: [
+            { text: "Kokande vätska", correct: false },
+            { text: "Överhettad gas", correct: true },
+            { text: "Underkyld vätska", correct: false },
+            
+        ]
+    },
+    {
+        question: "30. I ett rör på ett R134a-system mäter du att övertrycket är 10 bar (e) och temperaturen är + 36°C. Vad är det i röret?",
+        answers: [
+            { text: "Underkyld vätska", correct: true },
+            { text: "Mättad ånga/vätska", correct: false },
+            { text: "Överhettad gas", correct: false },
+            
+        ]
+    },
+    {
+        question: "31. I ett rör på ett R407C-system mäter du att övertryck-et är 2 bar (e) och temperaturen är -4°C. Vad är det i röret?",
+        answers: [
+            { text: "Underkyld vätska", correct: false },
+            { text: "Överhettad gas", correct: true },
+            { text: "Mättad ånga/vätska", correct: false },
+            
+        ]
+    },
+    {
+        question: "32. I ett rör på en R407C-anläggning mäter du ett över-tryck på 8 bar (e) och en temperatur på 10°C. Vad är det i röret?",
+        answers: [
+            { text: "Underkyld vätska", correct: true },
+            { text: "Mättad ånga/vätska", correct: false },
+            { text: "Överhettad gas", correct: false },
+            
+        ]
+    },
+    {
+        question: "33. Du har en köldmediecylinder som du antar att det finns 5 kg återvunnet R410A i. Temperaturen på cylin-dern är + 20°C och mätning av trycket visar 20 bar (e). Vad kan troligen vara fallet?",
+        answers: [
+            { text: "Det finns mycket olja i det återvunna R410A", correct: false },
+            { text: "Det finns också luft/kväve i cylindern", correct: true },
+            { text: "Det har tömts både R410A och R134a i cylindern", correct: false },
+            
+        ]
+    },
+    {
+        question: "34. Du skall sätta i drift ett R134a-system efter byte av sä-kerhetsventil på vätsketanken. PS (högsta tillåtna tryck) för högtryckssidan är 25 bar (e). Då kan du:",
+        answers: [
+            { text: "Täthetsprova systemet med ett maximalt tryck lika med 1,1 x PS", correct: false },
+            { text: "Täthetsprova systemet med ett maximalt tryck lika med PS", correct: false },
+            { text: "Täthetsprova systemet med ett maximalt tryck lika med 0,9 x PS", correct: true },
+            
+        ]
+    },
+    {
+        question: "35. Du skall sätta i drift ett R134a system när du har bytt högtryckspressostaten( säkerhetsventil på vätsketanken)PS (högsta tillåtna tryck) för högtryckssidan är 25 bar (e). Sedan kan du ställa in tryck-vaktens frånslagstryck på:",
+        answers: [
+            { text: "20,5 bar (e)", correct: false },
+            { text: "22,5 bar (e)", correct: true },
+            { text: "25 bar (e)", correct: false },
+            
+        ]
+    },
+    {
+        question: "36. Du skall sätta i drift ett R134a system när du har bytt lågtryckspressostaten.PS (högsta tillåtna tryck) för högtryckssidan är 25 bar (e). Kylrumstemperaturen är 0°C. Startpunkten (tillslagstrycket = Range) och differensen skall anpassas till anläggningen:",
+        answers: [
+            { text: "Startar på 2,5 bar(e) och stannar vid 0,1 bar(e)", correct: false },
+            { text: "Startar på 3,5 bar(e) och stannar vid 0,1 bar(e)", correct: false },
+            { text: "Startar på 1,5 bar(e) och stannar vid 0,1 bar (e)", correct: true },
+            
+        ]
     }
 ];
 
