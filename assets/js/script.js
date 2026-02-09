@@ -168,7 +168,7 @@ const questions = [
       },
     ],
   },
-  {
+  /* {
     question: "14. Vad är en zeotropisk köldmedieblandning?",
     answers: [
       {
@@ -617,7 +617,7 @@ const questions = [
       { text: "En ändring av kõldmediets temperatur", correct: false },
     ],
   },
-];
+]; */
 
 // Event listener for form submission to start the quiz
 form.addEventListener("submit", function (e) {
