@@ -714,36 +714,21 @@ function selectAnswer(e) {
 
 // Function to display the score
 function showScore() {
-  resetState();
-
-  const totalQuestions = questions.length;
-  const correctAnswers = score;
-  const wrongAnswers = totalQuestions - correctAnswers;
-
-  // Calculate percentage
-  const percentage = Math.round((correctAnswers / totalQuestions) * 100);
-
-  // Decide message
-  let resultMessage = "";
-  if (percentage >= 70) {
-    resultMessage = "Well done 🎉";
-  } else {
-    resultMessage = "Read more 📘";
-  }
-
-  // Show result
-  questionElement.innerHTML = `
-    <h2>Result</h2>
-    <p>Correct: ${correctAnswers}</p>
-    <p>Wrong: ${wrongAnswers}</p>
-    <p>Score: ${percentage}%</p>
-    <h3>${resultMessage}</h3>
-  `;
-
-  nextButton.innerHTML = "Play Again";
-  nextButton.style.display = "block";
+  resetState(); // Reset the state
+  questionElement.innerHTML = `You scored ${score} out of ${questions.length}, ${username}!`; // Show the score
+  nextButton.innerHTML = "Play Again"; // Change button text to "Play Again"
+  nextButton.style.display = "block"; // Show the button
 }
-
+// Function to handle the next button click
+function handleNextButton() {
+  currentQuestionIndex++; // Increment the question index
+  if (currentQuestionIndex < questions.length) {
+    // If there are more questions
+    showQuestion(); // Show the next question
+  } else {
+    showScore(); // Show the score
+  }
+}
 // Event listener for the next button
 nextButton.addEventListener("click", () => {
   if (nextButton.innerHTML === "Play Again") {
