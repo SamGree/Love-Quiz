@@ -18,7 +18,7 @@ let username = ""; // Player's username
 let countdown; // Variable to hold countdown interval
 
 // Array of questions with their answers and correct answer indication
-const questions = [
+/*const questions = [
   {
     question:
       "1-För att avläsa på manometern ett tryck på 1,3 MPa (Megapascal) är det desamma som?",
@@ -616,8 +616,8 @@ const questions = [
       },
       { text: "En ändring av kõldmediets temperatur", correct: false },
     ],
-  }, */
-]; 
+  }, 
+]; */
 
 // Event listener for form submission to start the quiz
 form.addEventListener("submit", function (e) {
