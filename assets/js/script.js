@@ -342,6 +342,172 @@ const questions = [
             { text: "Startar på 1,5 bar(e) och stannar vid 0,1 bar (e)", correct: true },
             
         ]
+    },
+    {
+        question: "En värmepumpanläggning har värmeeffekten 30 kW (den effekt som avges i kondensorn). Kompressorns är 10 kW. Hur stor kyleffektas upp origaffekt av bortser från värmeförluster i rören.",
+        answers: [
+            { text: "0 kW", correct: false },
+            { text: "20 kW", correct: true },
+            { text: "30 kW", correct: false },
+            { text: "40 kW", correct: false },
+            
+        ]
+    },
+    {
+        question: "En värmepumpanläggning har värmeeffekten 30 kW (den effekt som avges i kondensorn). Kompressorns är 10 kW. Hur stor är värmefaktorn.",
+        answers: [
+            { text: "0.33", correct: false },
+            { text: "2", correct: false },
+            { text: "3", correct: true },
+            { text: "40", correct: false },
+            
+        ]
+    },
+    {
+        question: "En värmepumpanläggning har värmeeffekten 30 kW (den effekt som avges i kondensorn). Kompressorns är 10 kW. Hur stor är köldfaktorn.",
+        answers: [
+            { text: "0.33", correct: false },
+            { text: "2", correct: true },
+            { text: "3", correct: false },
+            { text: "40", correct: false },
+            
+        ]
+    },
+    {
+        question: "Hur stor är värmefaktorn för en kylutrustning som har köldfaktorn 2,6?",
+        answers: [
+            { text: "0,6", correct: false },
+            { text: "1,6", correct: false },
+            { text: "3,6", correct: true },
+            { text: "4,6", correct: false },
+            { text: "5,6", correct: false },
+            
+        ]
+    },
+    {
+        question: "En bergvärmepump har en avgiven kondensoreffekt på 9 kW. Värmefaktorn COP, är 4,5. Hur stor effekt tas upp ur borrhålet? Vi bortser från värmeförluster i rörsystemet.",
+        answers: [
+            { text: "0,5", correct: false },
+            { text: "2", correct: true },
+            { text: "4,5", correct: false },
+            { text: "7", correct: false },
+            { text: "13,5", correct: false },
+            
+        ]
+    },
+    {
+        question: "Hur definierar man värmefaktorn (COPV)?",
+        answers: [
+            { text: "Förhållande mellan avgiven energi i kondensorn och upptagen energi i förångarenk ", correct: false },
+            { text: "Förhållande mellan avgiven energi i kondensorn och tillförd energi till kompressorn", correct: true },
+            { text: "Förhållande mellan upptagen energi i förångaren och tillförd energi till kompressorn", correct: false },
+            { text: "Förhållande mellan upptagen energi i förångaren och avgiven energi i kondensorn", correct: false },
+            
+            
+        ]
+    },
+    {
+        question: "Hur definierar man köldfaktorn (COPk)?",
+        answers: [
+            { text: "Förhållande mellan avgiven energi i kondensorn och upptagen energi i förångaren", correct: false },
+            { text: "Förhållande mellan avgiven energi i kondensorn och tillförd energi till kompressorn", correct: false },
+            { text: "Förhållande mellan upptagen energi i förångaren och tillförd energi till kompressorn ", correct: true },
+            { text: "Förhållande mellan upptagen energi i förångaren och avgiven energi i kondensorn", correct: false },
+            
+            
+        ]
+    },
+    {
+        question: "För att förånga ett ämne likt vatten eller köldmedium åtgår det:",
+        answers: [
+            { text: "En temperaturökning till kokpunkten", correct: false },
+            { text: "Värmeenergi", correct: true },
+            { text: "Högt tryck över ämnets yta", correct: false },
+            
+            
+        ]
+    },
+    {
+        question: "Förångningstemperaturen för ett köldmedium beror på:",
+        answers: [
+            { text: "Hur snabbt värme tillförs till det kokande kõldmediet", correct: false },
+            { text: "Kylkompressorns effektivitet för att förånga köldmediet", correct: false },
+            { text: "Trycket på vätskeytan ovanför det kokande köldmediet", correct: true },
+                  
+            
+        ]
+    },
+    {
+        question: "Ett köldmedium befinner sig mättat når:",
+        answers: [
+            { text: "Tryck och temperatur överensstämmer med köldmediets ångtryckskurva", correct: true },
+            { text: "Det är blandat med kompressorolja", correct: false },
+            { text: "Det komprimeras i kylkompressorn", correct: false },
+               
+            
+        ]
+    },
+    {
+        question: "Förångarens uppgift är att:",
+        answers: [
+            { text: "Omvandla kõldmediet från gas till vätska", correct: false },
+            { text: "Värma upp kõldmediegasen på snabbaste sätt", correct: false },
+            { text: "Koka köldmediet genom värmeupptagning", correct: true },
+               
+            
+        ]
+    },
+    {
+        question: "En kylkompressor ska:",
+        answers: [
+            { text: "Höja trycket för köldmediet i förångaren", correct: false },
+            { text: "Suga undan avkokat köldmedium från förångaren och komprimera kõldmediet", correct: true },
+            { text: "Vara placerad vid en lägre nivå än förångaren", correct: false },
+            
+            
+        ]
+    },
+    {
+        question: "En kondensor fungerar dåligt när:",
+        answers: [
+            { text: "Kondenseringen startar tidigt i kondensorn", correct: false },
+            { text: "Den samlar köldmedievätska i slutet på kondensorn", correct: false },
+            { text: "Värmeöverföringen till kylmedlet är obefintligt", correct: true },
+        ]
+    },
+    {
+        question: "En expansionsventil har bästa funktion när:",
+        answers: [
+            { text: "Förångaren är fylld med rätt mängd kokande lågtrycksvätska", correct: true },
+            { text: "Temperaturen för köldmediet är så låg som möjligt i början på förångaren", correct: false },
+            { text: "Tryckfallet över ventilen är så högt som möjligt", correct: false },
+            
+            
+        ]
+    },
+    {
+        question: "I en värmepump sker följande:",
+        answers: [
+            { text: "Köldmediet går i motsatt riktning jämfört med ett kylsystem", correct: false },
+            { text: "Förängningsvärmet används för att kyla ned kompressorn", correct: false },
+            { text: "Kondenseringsvärmen avges till en värmebärare", correct: true },
+        ]
+    },
+    {
+        question: "En tryckregleringsventil har för uppgift att:",
+        answers: [
+            { text: "Reglera temperaturen för ett mättat köldmedium", correct: false },
+            { text: "Säkerställa att kylkompressorn skyddas under stillestånd", correct: false },
+            { text: "Begränsa flödet av en köldmediegas", correct: true },
+        ]
+    },
+    {
+        question: "Under kondensering och förångning sker:",
+        answers: [
+            { text: "En fasomvandling för köldmediet", correct: true },
+            { text: "En höjning och en sänkning av trycket för köldmediet", correct: false },
+            { text: "En ändring av kõldmediets temperatur", correct: false },
+        ]
     }
 ];
 
