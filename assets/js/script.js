@@ -168,7 +168,7 @@ const questions = [
       },
     ],
   }
-  /* {
+   {
     question: "14. Vad är en zeotropisk köldmedieblandning?",
     answers: [
       {
