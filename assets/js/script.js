@@ -738,8 +738,8 @@ const questions = [
     question: "När började den svenska f-gasförordningen (SFS 2016:1128) gälla?",
     answers: [
       { text: "Den nya förordningen (SFS 2016:1128) trädde i kraft 17 november 2016", correct: false },
-      { text: "Den nya förordningen (SFS 2016:1128) trädde i kraft 01 januari 2017", correct: false },
-      { text: "Den nya förordningen (SFS 2016:1128) trädde i kraft 16 april 2014", correct: true },
+      { text: "Den nya förordningen (SFS 2016:1128) trädde i kraft 01 januari 2017", correct: true },
+      { text: "Den nya förordningen (SFS 2016:1128) trädde i kraft 16 april 2014", correct: false },
       { text: "Den nya förordningen (SFS 2016:1128) trädde i kraft 06 december 2016", correct: false },
     ],
   },
