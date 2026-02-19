@@ -616,8 +616,170 @@ const questions = [
       },
       { text: "En ändring av kõldmediets temperatur", correct: false },
     ],
-  } 
-];
+  },
+  {
+    question: "2- I vilken del av lagtexterna hittar du vad som gäller vid reparation av köldmedieläckage?",
+    answers: [
+      { text: "I förordning 2024/573 artikel 4", correct: true },
+      { text: "I förordning 2024/573 artikel 8", correct: false },
+      { text: "I förordning 1516/2007 artikel 8", correct: false },
+      { text: "I förordning 2024/573 artikel 10", correct: false },
+    ],
+  },
+  {
+    question: "Vilken är den grundläggande ISO-standardenheten för effekt?",
+    answers: [
+      { text: "J Joule", correct: false },
+      { text: "N Newton", correct: false },
+      { text: "Kg Kilogram", correct: false },
+      { text: "W Watt", correct: true },
+    ],
+  },
+  {
+    question: "Ett kylaggregat med R134a har kyleffekten 24 kW. Värmefaktorn är 3. Hur stor är den tillförda effekten till kompressormotorn i kW?",
+    answers: [
+      { text: "8 kW", correct: false },
+      { text: "12 kW", correct: true },
+      { text: "72 kW", correct: false },
+      { text: "19 kW", correct: false },
+    ],
+  },
+  {
+    question: "Var i lagtexterna hittar du vad en operatör måste kontrollera innan skötsel får utföras på operatörens köldmediesystem?",
+    answers: [
+      { text: "I den svenska f-gasförordningen 21 §", correct: true },
+      { text: "I förordning 2024/573 artikel 7", correct: false },
+      { text: "I förordning 2024/573 artikel 4", correct: false },
+      { text: "I den svenska f-gasförordningen 18 §", correct: false },
+    ],
+  },
+  {
+    question: "Hur stort är undertrycket om absoluta trycket är 90 Kilopascal (a)?",
+    answers: [
+      { text: "9 bar (e)", correct: false },
+      { text: "0,9 bar (e)", correct: false },
+      { text: "-0,1 bar (e)", correct: true },
+      { text: "-0,9 bar (e)", correct: false },
+    ],
+  },
+  {
+    question: " För vilka arbeten krävs företagscertifikat enligt gällande svenska regelverk?",
+    answers: [
+      { text: "Arbeten i kategori 1,2, 5", correct: true },
+      { text: "Arbeten i kategori 3, 4", correct: false },
+      { text: "Arbeten i kategori 1,2, 4", correct: false },
+      { text: "Arbeten i kategori 1,2,3, 5", correct: false },
+    ],
+  },
+  {
+    question: "Ett kylaggregat som betjänar ett kylrum har köldmedietyp HFC R 134a. Kondenseringstrycket för kylaggregatet är 9 bar. Förångningstemperaturen för kylaggregatet är -10°C. Vilken av nedanstående temperatur och tryck har kylaggregatet?",
+    answers: [
+      { text: "Kondenseringstemperatur 36°C. Förångningstryck 2 bar", correct: false },
+      { text: "Kondenseringstemperatur 38,5°C. Förångningstryck 1,28 bar", correct: false },
+      { text: "Kondenseringstemperatur 40°C. Förångningstryck 1 bar", correct: true },
+      { text: "Kondenseringstemperatur 30,5°C. Förångningstryck 2,28 bar", correct: false },
+    ],
+  },
+  {
+    question: "I en rörledning med R134a mäter du med din manometer trycket 3,9 bar(e).Temperaturen på köldmediet i rörledningen uppmäts till +10°C.I vilken fas är köldmediet och vilken underkylning eller överhettning har det?",
+    answers: [
+      { text: "Vätska med underkylning 5K", correct: true },
+      { text: "Vätska med underkylning 2K.", correct: false },
+      { text: "Gas med överhettning 10K.", correct: false },
+      { text: "Vätska med underkylning 10K.", correct: false },
+    ],
+  },
+  {
+    question: "Vad menas med överhettning för en termostatisk expansionsventil?",
+    answers: [
+      { text: "Temperaturskillnaden mellan suggas och tryckgas över kompressorn", correct: false },
+      { text: "Temperaturskillnaden på suggasen före och efter expansionsventilen", correct: false },
+      { text: "Differensen mellan kondensering temperatur och uppmätt temperatur efter kondensorn", correct: false },
+      { text: "Differensen mellan uppmätt temperatur i sugledningen och förångningstemperaturen.", correct: true },
+    ],
+  },
+  {
+    question: "Vilka av följande f-gaser ingår i europeiska och i svenska f-gasförordningar?",
+    answers: [
+      { text: "R1234yf, R1234ze", correct: true },
+      { text: "R717, R600", correct: false },
+      { text: "R718, R744", correct: false },
+      { text: "R717, R12", correct: false },
+    ],
+  },
+  {
+    question: "Hur förändras volymen när R134a förångas vid förångningstrycket 2 bar (e)?",
+    answers: [
+      { text: "Volymen blir ca 74 gånger större", correct: false },
+      { text: "Volymen blir 99 gånger större", correct: false },
+      { text: "Volymen blir 132 gånger mindre", correct: false },
+      { text: "Volymen blir 132 gånger större.", correct: false },
+      { text: "Volymen blir 89 gånger större", correct: true },
+    ],
+  },
+  {
+    question: "Under arbetsprocessen i en kylkompressor stiger trycket från förångningstryck till kondenseringstryck.Vad händer med köldmediets entalpi i kondensorn?",
+    answers: [
+      { text: "Entalpin minskar.", correct: true },
+      { text: "Entalpin är oförändrad.", correct: false },
+      { text: "Entalpin ökar.", correct: false },
+    ],
+  },
+  {
+    question: "Vilka är de rätta sambanden",
+    answers: [
+      { text: "Effekt = Energi / tid. Energi = Effekt x tid", correct: true },
+      { text: "Effekt = Energi / tid. Effekt = Energi x tid", correct: false },
+      { text: "Energi = Effekt / tid. Energi = Effekt x tid", correct: false },
+      { text: "Effekt = Energi + tid. Effekt = Energi / tid", correct: false },
+    ],
+  },
+  {
+    question: "När började den svenska f-gasförordningen (SFS 2016:1128) gälla?",
+    answers: [
+      { text: "Den nya förordningen (SFS 2016:1128) trädde i kraft 17 november 2016", correct: false },
+      { text: "Den nya förordningen (SFS 2016:1128) trädde i kraft 01 januari 2017", correct: false },
+      { text: "Den nya förordningen (SFS 2016:1128) trädde i kraft 16 april 2014", correct: true },
+      { text: "Den nya förordningen (SFS 2016:1128) trädde i kraft 06 december 2016", correct: false },
+    ],
+  },
+  {
+    question: "Köldmediet upptar värme i förångaren genom en viss process, vilken?",
+    answers: [
+      { text: "Köldmediet fasomvandlas genom kondensering", correct: false },
+      { text: "Köldmediet värms och får en minskad volymitet", correct: false },
+      { text: "Köldmediet fasomvandlas genom kokning", correct: true },
+      { text: "Köldmediet värms och får ökad densitet", correct: false },
+    ],
+  },
+  {
+    question: "F-gasförordningen ställer krav på periodisk läcksökning av kylutrustningar. Med vilken periodicitet kräver F-gasförordningen läcksökning på en stationär utrustning som i köldmediekretsen innehåller 323kg R134a (GWP-1430)? Det finns ett läckagevarningssystem installerat.?",
+    answers: [
+      { text: "Senast inom 3 månader", correct: false },
+      { text: "Senast inom 6 månader", correct: false },
+      { text: "Senast inom 12 månader", correct: true },
+      { text: "Senast inom 18 månader", correct: false },
+    ],
+  },
+  {
+    question: "Ackreditering för provtryckning med fas utfärdas av??",
+    answers: [
+      { text: "Arbetsmiljöinspektionen", correct: false },
+      { text: "Naturvårdsverket", correct: false },
+      { text: "SWEDAC", correct: true },
+      { text: "ADR-S", correct: false },
+    ],
+  },
+  {
+    question: "Skall registerförning finnas på små värmepumpsystem. S.k split-units?",
+    answers: [
+      { text: "Ja, men inte i enskilt hushåll", correct: false },
+      { text: "Nej", correct: false },
+      { text: "Ja", correct: true },
+      { text: "Ja, men bara hus kommun", correct: false },
+    ],
+  }
+  ];
 
 // Event listener for form submission to start the quiz
 form.addEventListener("submit", function (e) {
