@@ -620,9 +620,9 @@ const questions = [
   {
     question: "2- I vilken del av lagtexterna hittar du vad som gäller vid reparation av köldmedieläckage?",
     answers: [
-      { text: "I förordning 2024/573 artikel 4", correct: true },
+      { text: "I förordning 2024/573 artikel 4", correct: false },
       { text: "I förordning 2024/573 artikel 8", correct: false },
-      { text: "I förordning 1516/2007 artikel 8", correct: false },
+      { text: "I förordning 1516/2007 artikel 8", correct: true },
       { text: "I förordning 2024/573 artikel 10", correct: false },
     ],
   },
