@@ -728,7 +728,7 @@ const questions = [
   {
     question: "Vilka är de rätta sambanden",
     answers: [
-      { text: "Effekt = Energi / tid. Energi = Effekt x tid", correct: true },
+      { text: "Effekt = (Energi / tid). (Energi = Effekt x tid)", correct: true },
       { text: "Effekt = Energi / tid. Effekt = Energi x tid", correct: false },
       { text: "Energi = Effekt / tid. Energi = Effekt x tid", correct: false },
       { text: "Effekt = Energi + tid. Effekt = Energi / tid", correct: false },
@@ -774,8 +774,8 @@ const questions = [
     question: "Skall registerförning finnas på små värmepumpsystem. S.k split-units?",
     answers: [
       { text: "Ja, men inte i enskilt hushåll", correct: false },
-      { text: "Nej", correct: false },
-      { text: "Ja", correct: true },
+      { text: "Nej", correct: true },
+      { text: "Ja", correct: false },
       { text: "Ja, men bara hus kommun", correct: false },
     ],
   }
