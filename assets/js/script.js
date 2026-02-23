@@ -785,7 +785,7 @@ const questions = [
       { text: "kW/h", correct: false },
       { text: "KG/m3", correct: true },
       { text: "KG/s", correct: false },
-      { text: "mäts i ", correct: false },
+      { text: "mäts i", correct: false },
     ],
   }
   ];
