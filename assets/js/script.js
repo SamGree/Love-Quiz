@@ -778,6 +778,15 @@ const questions = [
       { text: "Ja", correct: false },
       { text: "Ja, men bara hus kommun", correct: false },
     ],
+  },
+  {
+    question: "densitet formeln?",
+    answers: [
+      { text: "kW/h", correct: false },
+      { text: "KG/m3", correct: true },
+      { text: "KG/s", correct: false },
+      { text: "mäts i ", correct: false },
+    ],
   }
   ];
 
