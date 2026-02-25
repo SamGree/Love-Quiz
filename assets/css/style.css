@@ -173,6 +173,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 4 equal boxes like your drawing */
     text-align: center;
+    background: lightblue
 }
 
 .social-links a {
@@ -317,6 +318,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 4 equal boxes like your drawing */
     text-align: center;
+    background: lightblue
 }
 
 .social-links a {
