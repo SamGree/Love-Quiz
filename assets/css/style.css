@@ -302,3 +302,37 @@ body {
         font-size: 20px;
     }
 }
+
+/* Footer Styles */
+.social-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 2px solid #333; /* The line from your sketch */
+}
+
+.social-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal boxes like your drawing */
+    text-align: center;
+}
+
+.social-links a {
+    padding: 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    border-right: 1px solid #ccc; /* Vertical lines between names */
+    transition: background 0.3s;
+}
+
+.social-links a:last-child {
+    border-right: none;
+}
+
+.social-links a:hover {
+    background-color: #f0f0f0;
+    color: #007BFF;
+}
