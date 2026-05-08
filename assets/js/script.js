@@ -618,7 +618,8 @@ const questions = [
     ],
   },
   {
-    question: "2- I vilken del av lagtexterna hittar du vad som gäller vid reparation av köldmedieläckage?",
+    question:
+      "2- I vilken del av lagtexterna hittar du vad som gäller vid reparation av köldmedieläckage?",
     answers: [
       { text: "I förordning 2024/573 artikel 4", correct: false },
       { text: "I förordning 2024/573 artikel 8", correct: false },
@@ -636,7 +637,8 @@ const questions = [
     ],
   },
   {
-    question: "Ett kylaggregat med R134a har kyleffekten 24 kW. Värmefaktorn är 3. Hur stor är den tillförda effekten till kompressormotorn i kW?",
+    question:
+      "Ett kylaggregat med R134a har kyleffekten 24 kW. Värmefaktorn är 3. Hur stor är den tillförda effekten till kompressormotorn i kW?",
     answers: [
       { text: "8 kW", correct: false },
       { text: "12 kW", correct: true },
@@ -645,7 +647,8 @@ const questions = [
     ],
   },
   {
-    question: "Var i lagtexterna hittar du vad en operatör måste kontrollera innan skötsel får utföras på operatörens köldmediesystem?",
+    question:
+      "Var i lagtexterna hittar du vad en operatör måste kontrollera innan skötsel får utföras på operatörens köldmediesystem?",
     answers: [
       { text: "I den svenska f-gasförordningen 21 §", correct: true },
       { text: "I förordning 2024/573 artikel 7", correct: false },
@@ -654,7 +657,8 @@ const questions = [
     ],
   },
   {
-    question: "Hur stort är undertrycket om absoluta trycket är 90 Kilopascal (a)?",
+    question:
+      "Hur stort är undertrycket om absoluta trycket är 90 Kilopascal (a)?",
     answers: [
       { text: "9 bar (e)", correct: false },
       { text: "0,9 bar (e)", correct: false },
@@ -663,7 +667,8 @@ const questions = [
     ],
   },
   {
-    question: " För vilka arbeten krävs företagscertifikat enligt gällande svenska regelverk?",
+    question:
+      " För vilka arbeten krävs företagscertifikat enligt gällande svenska regelverk?",
     answers: [
       { text: "Arbeten i kategori 1,2, 5", correct: true },
       { text: "Arbeten i kategori 3, 4", correct: false },
@@ -672,16 +677,30 @@ const questions = [
     ],
   },
   {
-    question: "Ett kylaggregat som betjänar ett kylrum har köldmedietyp HFC R 134a. Kondenseringstrycket för kylaggregatet är 9 bar. Förångningstemperaturen för kylaggregatet är -10°C. Vilken av nedanstående temperatur och tryck har kylaggregatet?",
+    question:
+      "Ett kylaggregat som betjänar ett kylrum har köldmedietyp HFC R 134a. Kondenseringstrycket för kylaggregatet är 9 bar. Förångningstemperaturen för kylaggregatet är -10°C. Vilken av nedanstående temperatur och tryck har kylaggregatet?",
     answers: [
-      { text: "Kondenseringstemperatur 36°C. Förångningstryck 2 bar", correct: false },
-      { text: "Kondenseringstemperatur 38,5°C. Förångningstryck 1,28 bar", correct: false },
-      { text: "Kondenseringstemperatur 40°C. Förångningstryck 1 bar", correct: true },
-      { text: "Kondenseringstemperatur 30,5°C. Förångningstryck 2,28 bar", correct: false },
+      {
+        text: "Kondenseringstemperatur 36°C. Förångningstryck 2 bar",
+        correct: false,
+      },
+      {
+        text: "Kondenseringstemperatur 38,5°C. Förångningstryck 1,28 bar",
+        correct: false,
+      },
+      {
+        text: "Kondenseringstemperatur 40°C. Förångningstryck 1 bar",
+        correct: true,
+      },
+      {
+        text: "Kondenseringstemperatur 30,5°C. Förångningstryck 2,28 bar",
+        correct: false,
+      },
     ],
   },
   {
-    question: "I en rörledning med R134a mäter du med din manometer trycket 3,9 bar(e).Temperaturen på köldmediet i rörledningen uppmäts till +10°C.I vilken fas är köldmediet och vilken underkylning eller överhettning har det?",
+    question:
+      "I en rörledning med R134a mäter du med din manometer trycket 3,9 bar(e).Temperaturen på köldmediet i rörledningen uppmäts till +10°C.I vilken fas är köldmediet och vilken underkylning eller överhettning har det?",
     answers: [
       { text: "Vätska med underkylning 5K", correct: true },
       { text: "Vätska med underkylning 2K.", correct: false },
@@ -690,16 +709,30 @@ const questions = [
     ],
   },
   {
-    question: "Vad menas med överhettning för en termostatisk expansionsventil?",
+    question:
+      "Vad menas med överhettning för en termostatisk expansionsventil?",
     answers: [
-      { text: "Temperaturskillnaden mellan suggas och tryckgas över kompressorn", correct: false },
-      { text: "Temperaturskillnaden på suggasen före och efter expansionsventilen", correct: false },
-      { text: "Differensen mellan kondensering temperatur och uppmätt temperatur efter kondensorn", correct: false },
-      { text: "Differensen mellan uppmätt temperatur i sugledningen och förångningstemperaturen.", correct: true },
+      {
+        text: "Temperaturskillnaden mellan suggas och tryckgas över kompressorn",
+        correct: false,
+      },
+      {
+        text: "Temperaturskillnaden på suggasen före och efter expansionsventilen",
+        correct: false,
+      },
+      {
+        text: "Differensen mellan kondensering temperatur och uppmätt temperatur efter kondensorn",
+        correct: false,
+      },
+      {
+        text: "Differensen mellan uppmätt temperatur i sugledningen och förångningstemperaturen.",
+        correct: true,
+      },
     ],
   },
   {
-    question: "Vilka av följande f-gaser ingår i europeiska och i svenska f-gasförordningar?",
+    question:
+      "Vilka av följande f-gaser ingår i europeiska och i svenska f-gasförordningar?",
     answers: [
       { text: "R1234yf, R1234ze", correct: true },
       { text: "R717, R600", correct: false },
@@ -708,7 +741,8 @@ const questions = [
     ],
   },
   {
-    question: "Hur förändras volymen när R134a förångas vid förångningstrycket 2 bar (e)?",
+    question:
+      "Hur förändras volymen när R134a förångas vid förångningstrycket 2 bar (e)?",
     answers: [
       { text: "Volymen blir ca 74 gånger större", correct: false },
       { text: "Volymen blir 99 gånger större", correct: false },
@@ -718,7 +752,8 @@ const questions = [
     ],
   },
   {
-    question: "Under arbetsprocessen i en kylkompressor stiger trycket från förångningstryck till kondenseringstryck.Vad händer med köldmediets entalpi i kondensorn?",
+    question:
+      "Under arbetsprocessen i en kylkompressor stiger trycket från förångningstryck till kondenseringstryck.Vad händer med köldmediets entalpi i kondensorn?",
     answers: [
       { text: "Entalpin minskar.", correct: true },
       { text: "Entalpin är oförändrad.", correct: false },
@@ -728,23 +763,40 @@ const questions = [
   {
     question: "Vilka är de rätta sambanden",
     answers: [
-      { text: "Effekt = (Energi / tid). (Energi = Effekt x tid)", correct: true },
+      {
+        text: "Effekt = (Energi / tid). (Energi = Effekt x tid)",
+        correct: true,
+      },
       { text: "Effekt = Energi / tid. Effekt = Energi x tid", correct: false },
       { text: "Energi = Effekt / tid. Energi = Effekt x tid", correct: false },
       { text: "Effekt = Energi + tid. Effekt = Energi / tid", correct: false },
     ],
   },
   {
-    question: "När började den svenska f-gasförordningen (SFS 2016:1128) gälla?",
+    question:
+      "När började den svenska f-gasförordningen (SFS 2016:1128) gälla?",
     answers: [
-      { text: "Den nya förordningen (SFS 2016:1128) trädde i kraft 17 november 2016", correct: false },
-      { text: "Den nya förordningen (SFS 2016:1128) trädde i kraft 01 januari 2017", correct: true },
-      { text: "Den nya förordningen (SFS 2016:1128) trädde i kraft 16 april 2014", correct: false },
-      { text: "Den nya förordningen (SFS 2016:1128) trädde i kraft 06 december 2016", correct: false },
+      {
+        text: "Den nya förordningen (SFS 2016:1128) trädde i kraft 17 november 2016",
+        correct: false,
+      },
+      {
+        text: "Den nya förordningen (SFS 2016:1128) trädde i kraft 01 januari 2017",
+        correct: true,
+      },
+      {
+        text: "Den nya förordningen (SFS 2016:1128) trädde i kraft 16 april 2014",
+        correct: false,
+      },
+      {
+        text: "Den nya förordningen (SFS 2016:1128) trädde i kraft 06 december 2016",
+        correct: false,
+      },
     ],
   },
   {
-    question: "Köldmediet upptar värme i förångaren genom en viss process, vilken?",
+    question:
+      "Köldmediet upptar värme i förångaren genom en viss process, vilken?",
     answers: [
       { text: "Köldmediet fasomvandlas genom kondensering", correct: false },
       { text: "Köldmediet värms och får en minskad volymitet", correct: false },
@@ -753,7 +805,8 @@ const questions = [
     ],
   },
   {
-    question: "F-gasförordningen ställer krav på periodisk läcksökning av kylutrustningar. Med vilken periodicitet kräver F-gasförordningen läcksökning på en stationär utrustning som i köldmediekretsen innehåller 323kg R134a (GWP-1430)? Det finns ett läckagevarningssystem installerat.?",
+    question:
+      "F-gasförordningen ställer krav på periodisk läcksökning av kylutrustningar. Med vilken periodicitet kräver F-gasförordningen läcksökning på en stationär utrustning som i köldmediekretsen innehåller 323kg R134a (GWP-1430)? Det finns ett läckagevarningssystem installerat.?",
     answers: [
       { text: "Senast inom 3 månader", correct: false },
       { text: "Senast inom 6 månader", correct: false },
@@ -771,7 +824,8 @@ const questions = [
     ],
   },
   {
-    question: "Skall registerförning finnas på små värmepumpsystem. S.k split-units?",
+    question:
+      "Skall registerförning finnas på små värmepumpsystem. S.k split-units?",
     answers: [
       { text: "Ja, men inte i enskilt hushåll", correct: false },
       { text: "Nej", correct: true },
@@ -787,29 +841,58 @@ const questions = [
       { text: "KG/s", correct: false },
       { text: "mäts i", correct: false },
     ],
-  }
-  ];
+  },
+];
 
-// Event listener for form submission to start the quiz
+// APPROVED USERS
+const allowedUsers = ["sam", "john", "alex"];
+
+// CONTACT NUMBER
+const contactNumber = "0046733448869";
+
+// FORM SUBMIT
 form.addEventListener("submit", function (e) {
-  e.preventDefault(); // Prevent the default form submission
+  e.preventDefault();
 
-  // 🔴 CHANGE 1: SAFETY CHECK (prevents crash)
   if (!usernameInput) {
     console.error("usernameInput not found in HTML");
     return;
   }
 
-  // 🔴 CHANGE 2: SAFE value access
-  const username = usernameInput.value.trim();
+  // GET USERNAME
+  username = usernameInput.value.trim().toLowerCase();
 
-  if (username !== "") {
-    // If username is provided
-    usernameForm.style.display = "none"; // Hide the username form
-    quizContainer.style.display = "block"; // Show the quiz container
-    startQuiz(); // Start the quiz
+  // CHECK ACCESS
+  if (allowedUsers.includes(username)) {
+    // ACCESS GRANTED
+    usernameForm.style.display = "none";
+    quizContainer.style.display = "block";
+
+    startQuiz();
   } else {
-    alert("Please enter your name"); // 🔴 optional but recommended
+    // ACCESS DENIED
+    document.body.innerHTML = `
+      <div style="
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:100vh;
+        flex-direction:column;
+        font-family:Arial;
+        text-align:center;
+        padding:20px;
+      ">
+
+        <h1>Access Denied ❌</h1>
+
+        <p>You are not approved to access this quiz.</p>
+
+        <p>Contact this number for access:</p>
+
+        <h2>${contactNumber}</h2>
+
+      </div>
+    `;
   }
 });
 
